@@ -23706,7 +23706,7 @@ html .bg-accent-color .features-09__item--new,
 
 .lang-widget {
     position: fixed;
-    z-index: 9999999;
+    z-index: 1;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
 }
 
@@ -23735,7 +23735,7 @@ html .bg-accent-color .features-09__item--new,
 
 .lang-widget--gray .lang-widget__wrapper {
     background-color: #F6F6F6;
-    opacity: 15%;
+    opacity: 75%;
 }
 
 
