@@ -23755,7 +23755,8 @@ html .bg-accent-color .features-09__item--new,
 }
 
 .lang-widget--gray .lang-widget__wrapper {
-    background-color: #F6F6F6
+    background-color: #F6F6F6;
+    opacity: 15%;
 }
 
 .lang-widget--midnight .lang-widget__wrapper {
