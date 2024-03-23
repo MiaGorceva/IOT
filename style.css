@@ -6224,8 +6224,9 @@ select.text-input {
 }
 
 .state-opened-dropdown .dropdown__item {
-    opacity: 1;
-    transform: none
+    opacity: 0.9;
+    transform: none;
+    background: lightgray;
 }
 
 .dropdown__item a {
