@@ -23710,17 +23710,8 @@ html .bg-accent-color .features-09__item--new,
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
 }
 
-.lang-widget--bottom_right {
-    left: 3%;
-    top: 0
-}
-
-.lang-widget--bottom_right .lang-widget__wrapper {
-    border-radius: 4px 4px 0 0
-}
-
 .lang-widget--top_right {
-    left: 30px;
+    right: 1%;
     top: 0
 }
 
