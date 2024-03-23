@@ -8569,7 +8569,7 @@ select.text-input {
 .nav-02__item {
     display: inline-block;
     vertical-align: middle;
-    font-size: 0;
+    font-size: 10px;
     margin-right: 15px
 }
 
@@ -23712,7 +23712,7 @@ html .bg-accent-color .features-09__item--new,
 
 .lang-widget--bottom_right {
     left: 3%;
-    bottom: 0
+    top: 0
 }
 
 .lang-widget--bottom_right .lang-widget__wrapper {
@@ -23724,10 +23724,6 @@ html .bg-accent-color .features-09__item--new,
     top: 0
 }
 
-
-.lang-widget--bottom_right .lang-widget__wrapper {
-    border-radius: 4px 4px 0 0
-}
 
 .lang-widget--top_right .lang-widget__wrapper {
     border-radius: 0 0 4px 4px
