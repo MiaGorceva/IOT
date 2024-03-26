@@ -23713,6 +23713,7 @@ html .bg-accent-color .features-09__item--new,
 
 .lang-widget__title {
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .lang-widget--top_right {
