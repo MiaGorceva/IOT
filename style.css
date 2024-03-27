@@ -23734,8 +23734,7 @@ html .bg-accent-color .features-09__item--new,
 .lang-widget__list {
     padding: 3%;
     margin: 3%;
-    list-style-image: image();
-    height: 0;
+    height: 10px;
     overflow: hidden
 }
 
