@@ -23723,6 +23723,10 @@ html .bg-accent-color .features-09__item--new,
     top: 0
 }
 
+.lang-widget--has-dropdown {
+    overflow: visible
+}
+
 
 .lang-widget--top_right .lang-widget__wrapper {
     border-radius: 0 0 4px 4px
