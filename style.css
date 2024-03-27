@@ -23708,12 +23708,13 @@ html .bg-accent-color .features-09__item--new,
 .lang-widget {
     position: fixed;
     z-index: 1;
-    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden
 }
 
 .lang-widget__title {
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .lang-widget--top_right {
