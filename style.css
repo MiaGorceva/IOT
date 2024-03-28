@@ -23712,7 +23712,8 @@ html .bg-accent-color .features-09__item--new,
     position: fixed;
     z-index: 1;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
-    white-space: nowrap
+    white-space: nowrap;
+    top: 20px;
 }
 
 .lang-widget__title {
@@ -23721,7 +23722,8 @@ html .bg-accent-color .features-09__item--new,
 
 .lang-widget--top_right {
     right: 1%;
-    top: 0
+    top: 0px;
+
 }
 
 .lang-widget--has-dropdown {
