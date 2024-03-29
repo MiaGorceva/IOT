@@ -5616,7 +5616,7 @@ select.text-input {
     height: 100%;
     width: 10px;
     display: inline-block;
-    background: url(https://unicorn-cdn.b-cdn.net/ffb461c8-626a-4561-8c61-9459c88882ba/) no-repeat;
+    background: url(upload/file not found.png) no-repeat;
     opacity: 0.5;
     top: 1px;
     position: relative;
@@ -5714,13 +5714,13 @@ select.text-input {
     transform: translateY(-50%);
     width: 12px;
     height: 12px;
-    background: url(https://unicorn-cdn.b-cdn.net/bbb9674e-87e3-46cb-a32c-a80643dcc3c8/) no-repeat;
+    background: url() no-repeat;
     opacity: 0.3;
     pointer-events: none
 }
 
 .form__input .chosen-container.chosen-with-drop:after {
-    background: url(https://unicorn-cdn.b-cdn.net/d148ba3f-d583-441b-a0e4-05554d90f4a6/) no-repeat
+    background: url() no-repeat
 }
 
 .uni-is-dark-bg:not(.cta_form-03-parent) .form__input .chosen-search-input {
