@@ -1188,7 +1188,6 @@
 .style-green-1 .button--accent-outline .button__system_icon svg .bg-accent-color .cta_button-28__check * *,
 .button--accent-outline .button__system_icon svg .bg-accent-color .cta_button-28__check * .style-green-1 * {
     fill: #e4feec;
-    color:#041ddf
 }
 
 .style-green-1 .stroke-light {
@@ -4367,7 +4366,7 @@ body .page-component__bg_overlay_box {
 .style-green-1 .bg-accent-color .footer-04,
 .style-green-1 .bg-accent-color .footer-02,
 .style-green-1 .bg-accent-color .text--01__box,
-.style-green-1 .bg-accent-color .steps-03__text {
+.style-green-1 .bg-accent-color  {
     background-color: #4ADDB4
 }
 
@@ -22964,6 +22963,10 @@ html .bg-accent-color .features-09__item--new,
     margin-left: auto;
     margin-right: auto;
     line-height: 1.6
+}
+
+.steps-03__text .accent-color{
+    color:#041ddf;
 }
 
 .steps-03__icon {
