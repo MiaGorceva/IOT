@@ -23629,14 +23629,14 @@ html .bg-accent-color .features-09__item--new,
     z-index: 1;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
     white-space: nowrap;
-    right: 1%;
-    top:1%;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 2;
 }
 
 .lang-widget__title {
-    white-space: nowrap
+    white-space: nowrap;
+    right: 1%;
+    top:1%
 }
 
 .lang-widget--has-dropdown {
