@@ -4365,7 +4365,8 @@ body .page-component__bg_overlay_box {
 .style-green-1 .bg-accent-color .background-color-picker__circle,
 .style-green-1 .bg-accent-color .footer-04,
 .style-green-1 .bg-accent-color .footer-02,
-.style-green-1 .bg-accent-color .text--01__box {
+.style-green-1 .bg-accent-color .text--01__box,
+.style-green-1 .bg-accent-color .steps-03__text {
     background-color: #4ADDB4
 }
 
