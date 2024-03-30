@@ -4256,7 +4256,7 @@ body .page-component__bg_overlay_box {
 }
 
 .page-component__wrapper {
-    position: absolute
+    position: relative
 }
 
 .js-lightbox-single-image {
