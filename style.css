@@ -1187,7 +1187,8 @@
 .bg-accent-color .cta_button-28__check .button--accent-outline .button__system_icon svg * .style-green-1 *,
 .style-green-1 .button--accent-outline .button__system_icon svg .bg-accent-color .cta_button-28__check * *,
 .button--accent-outline .button__system_icon svg .bg-accent-color .cta_button-28__check * .style-green-1 * {
-    fill: #e4feec
+    fill: #e4feec;
+    color:#041ddf
 }
 
 .style-green-1 .stroke-light {
