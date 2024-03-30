@@ -23626,16 +23626,13 @@ html .bg-accent-color .features-09__item--new,
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
     white-space: nowrap;
     right: 1%;
+    top:1%;
+    padding: 1%;
+    font-size: 14px;
 }
 
 .lang-widget__title {
     white-space: nowrap
-}
-
-.lang-widget--top_right {
-    right: 0px;
-    top: 0px;
-
 }
 
 .lang-widget--has-dropdown {
