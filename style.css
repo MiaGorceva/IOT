@@ -23631,6 +23631,9 @@ html .bg-accent-color .features-09__item--new,
     white-space: nowrap;
     font-size: 12px;
     line-height: 2;
+    position: absolute;
+    top: 1%;
+    right: 1%;
 }
 
 .lang-widget__title {
