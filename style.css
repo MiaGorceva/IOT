@@ -6122,7 +6122,6 @@ select.text-input {
     visibility: hidden;
     border-radius: 4px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
-    background-color: white;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
