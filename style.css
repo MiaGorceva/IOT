@@ -18970,6 +18970,18 @@ a.posts-01__item:focus {
     flex-wrap: wrap
 }
 
+.footer-02__wrapper__left {
+    float:left
+}
+
+.footer-02__wrapper__right {
+    float:right
+}
+
+.footer-02__wrapper__center {
+    float:center
+}
+
 @media (max-width: 750px) {
     .footer-02__wrapper {
         display: block
