@@ -4330,7 +4330,8 @@ body .page-component__bg_overlay_box {
 }
 
 .bg-dark_gray-color{
-    background-image: url('upload/the most flexible IoT platform ever.jpg')
+    background-image: url('upload/the most flexible IoT platform ever.jpg');
+    opacity: 0.8
 }
 
 .style-blue-1 .bg-accent-color .page-component__bg_overlay_box:not(.page-component__bg_overlay_box--always-white),
