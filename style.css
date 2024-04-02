@@ -18963,6 +18963,7 @@ a.posts-01__item:focus {
 }
 
 .footer-02__wrapper {
+    max-width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
