@@ -4327,7 +4327,10 @@ body .page-component__bg_overlay_box {
 .bg-light_gray-color .footer-02,
 .bg-light_gray-color .text--01__box {
     background-color: #F6F6F6;
-    --dark: grey;
+}
+
+.bg-dark_gray-color{
+    background-color: gray;
 }
 
 .style-blue-1 .bg-accent-color .page-component__bg_overlay_box:not(.page-component__bg_overlay_box--always-white),
