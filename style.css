@@ -18979,7 +18979,8 @@ a.posts-01__item:focus {
 }
 
 .footer-02__wrapper__center {
-    float:center
+    text-align: center;
+    max-width: 50%
 }
 
 @media (max-width: 750px) {
