@@ -3626,7 +3626,9 @@ textarea:focus {
 }
 
 .container--large {
-    max-width: 1300px
+    width: 100%;
+    display: flex;
+    flex: 1 0 0;
 }
 
 .container--xlarge {
