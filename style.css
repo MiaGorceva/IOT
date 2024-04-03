@@ -10530,7 +10530,10 @@ select.text-input {
 }
 
 .first_component .header-27 {
-    padding-top: 50px
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .header-27__container {
