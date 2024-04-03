@@ -3597,7 +3597,8 @@ textarea:focus {
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
-    max-width: 1080px
+    max-width: 1080px;
+    display: flex;
 }
 
 .container:after {
@@ -18969,24 +18970,11 @@ a.posts-01__item:focus {
 
 .footer-02__wrapper {
     max-width: 30%;
+    flex: 1 0 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap
-}
-
-.footer-02__wrapper__left {
-    float:left
-}
-
-.footer-02__wrapper__right {
-    float:right;
-    max-width: 90%
-}
-
-.footer-02__wrapper__center {
-    text-align: center;
-    max-width: 60%
 }
 
 @media (max-width: 750px) {
