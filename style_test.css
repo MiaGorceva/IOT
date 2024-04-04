@@ -3595,27 +3595,27 @@ textarea:focus {
     clear: both
 }
 
-.container--xsmall {
+.container--max {
     max-width: 400px
 }
 
-.container--small {
+.container--max {
     max-width: 550px
 }
 
-.container--premid {
+.container--max {
     max-width: 750px
 }
 
-.container--mid {
+.container--max {
     max-width: 900px
 }
 
-.container--large {
+.container--max {
     max-width: 1200px
 }
 
-.container--xlarge {
+.container--max {
     max-width: 1600px
 }
 
@@ -12064,7 +12064,7 @@ select.text-input {
     text-align: center
 }
 
-.team-04 .container--small {
+.team-04 .container--max {
     margin-bottom: 50px
 }
 

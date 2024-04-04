@@ -3612,30 +3612,6 @@ textarea:focus {
     clear: both
 }
 
-.container--xsmall {
-    max-width: 400px
-}
-
-.container--small {
-    max-width: 550px
-}
-
-.container--premid {
-    max-width: 750px
-}
-
-.container--mid {
-    max-width: 900px
-}
-
-.container--large {
-    width: 100%;
-}
-
-.container--xlarge {
-    max-width: 1600px
-}
-
 .container--max {
     max-width: 100%
 }
@@ -11996,7 +11972,7 @@ select.text-input {
     text-align: center
 }
 
-.team-04 .container--small {
+.team-04 .container--max {
     margin-bottom: 50px
 }
 
