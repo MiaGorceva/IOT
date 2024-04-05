@@ -20810,6 +20810,16 @@ html .bg-mature-color .faq-02__question_heading {
     text-decoration: underline
 }
 
+.features-01{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center
+}
+
 .features-01__items {
     padding: 0;
     margin: 0;
