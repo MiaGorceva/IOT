@@ -15017,7 +15017,7 @@ select.text-input {
 .pricing-05__cards_mobile .pricing-05__info__box {
     padding-left: 0;
     flex-shrink: 0;
-    max-width: 200px
+    width: 200px;
 }
 
 .pricing-05__cards_mobile .pricing-05__info__box_no-header {
