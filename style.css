@@ -14859,6 +14859,7 @@ select.text-input {
 .pricing-05__header_text {
     padding: 10px 10px;
     min-width: 170px;
+    max-width: 200px;
     opacity: 0.8;
     line-height: 1.4;
     font-size: 14px
