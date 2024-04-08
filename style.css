@@ -8228,7 +8228,7 @@ select.text-input {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .title-box--small {
@@ -14781,7 +14781,7 @@ select.text-input {
     padding: 30px 20px 10px;
     text-align: center;
     border-radius: 10px 10px 0 0;
-    vertical-align: top
+    vertical-align: middle
 }
 
 .pricing-05__item_icon {
