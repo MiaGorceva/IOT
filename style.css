@@ -3617,7 +3617,7 @@ textarea:focus {
 }
 
 .container--miteStyle {
-    max-width: 40%
+    max-width: 50%
 }
 
 header {
@@ -8223,7 +8223,12 @@ select.text-input {
 
 .title-box {
     margin-bottom: 50px;
-    max-width: 700px
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 .title-box--small {
