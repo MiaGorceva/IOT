@@ -14704,7 +14704,6 @@ select.text-input {
     background-color: white;
     border-radius: 10px;
     border-collapse: collapse;
-    display: flex;
     flex-wrap: wrap;
     align-content: center
 }
