@@ -14737,7 +14737,6 @@ select.text-input {
 }
 
 .pricing-05__info__box {
-    display: flex;
     align-items: center;
     padding-left: 3px
 }
