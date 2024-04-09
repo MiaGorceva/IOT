@@ -14703,10 +14703,7 @@ select.text-input {
     box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2), 0 5px 15px 0 rgba(37, 44, 97, 0.15);
     background-color: white;
     border-radius: 10px;
-    border-collapse: collapse;
-    flex-wrap: wrap;
-    align-content: center
-}
+    border-collapse: collapse
 }
 
 .pricing-05__row {
@@ -14857,7 +14854,8 @@ select.text-input {
 
 .pricing-05__header {
     padding: 0 20px;
-    position: relative
+    position: relative;
+    text-align: left;
 }
 
 .pricing-05__header_text {
