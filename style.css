@@ -14717,6 +14717,9 @@ select.text-input {
     display: inline !important;
     height: 26px;
     width: 26px;
+    font-size: 30px;
+  vertical-align: middle;
+  line-height: 2;
 }
 
 .pricing-05__row {
