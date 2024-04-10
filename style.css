@@ -14842,6 +14842,7 @@ select.text-input {
     margin: auto;
     left: 0;
     right: 0;
+    opacity: 0;
     transform: translateY(3px);
     transition: opacity .2s ease, transform .2s ease
 }
