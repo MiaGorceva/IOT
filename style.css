@@ -14712,6 +14712,13 @@ select.text-input {
     table-layout: fixed
 }
 
+.emoji{
+    margin: 0px !important;
+    display: inline !important;
+    height: 26px;
+    width: 26px;
+}
+
 .pricing-05__row {
     position: relative;
     transition: background-color 0.2s ease
