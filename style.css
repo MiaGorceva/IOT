@@ -14673,7 +14673,7 @@ select.text-input {
 }
 
 .pricing-05__cards_container--4 .pricing-05__card_box {
-    width: 21%
+    width: 19%
 }
 
 .pricing-05__cards_container--5 {
@@ -14842,7 +14842,6 @@ select.text-input {
     margin: auto;
     left: 0;
     right: 0;
-    opacity: 0;
     transform: translateY(3px);
     transition: opacity .2s ease, transform .2s ease
 }
