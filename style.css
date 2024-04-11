@@ -14672,7 +14672,7 @@ select.text-input {
 }
 
 .pricing-05__cards_container--4 .pricing-05__card_box {
-    width: 19%
+    width: 180px
 }
 
 .pricing-05__cards_container--5 {
@@ -14825,7 +14825,7 @@ select.text-input {
     margin-bottom: 10px;
     font-size: 14px;
     text-transform: uppercase;
-    color: inherit
+    color: inherit;
 }
 
 .pricing-05__card_info {
