@@ -3620,6 +3620,10 @@ textarea:focus {
     max-width: 35%
 }
 
+.container--miteStyle--big {
+    max-width: 75%
+}
+
 header {
     position: relative;
     z-index: 50
