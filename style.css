@@ -15490,7 +15490,7 @@ a.posts-01__item:focus {
     }
 }
 
-.app, .root_vgAo0, body, html{
+.app{
     box-sizing: border-box;
     display: flex;
     height: 100%;
