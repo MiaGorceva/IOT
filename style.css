@@ -15499,6 +15499,9 @@ a.posts-01__item:focus {
 
 .posts-02__title {
     margin-top: 0;
+}
+
+.posts-02__title--nowrap {
     text-wrap: nowrap;
 }
 
