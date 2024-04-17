@@ -15491,7 +15491,8 @@ a.posts-01__item:focus {
 }
 
 .posts-02__title {
-    margin-top: 0
+    margin-top: 0;
+    text-wrap: nowrap;
 }
 
 .posts-02__info {
