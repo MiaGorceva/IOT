@@ -3613,7 +3613,7 @@ textarea:focus {
 }
 
 .container--max {
-    max-width: 100%
+    width: 95%
 }
 
 .container--miteStyle {
