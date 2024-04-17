@@ -15490,6 +15490,13 @@ a.posts-01__item:focus {
     }
 }
 
+.app, .root_vgAo0, body, html{
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
 .posts-02__title {
     margin-top: 0;
     text-wrap: nowrap;
