@@ -14671,6 +14671,11 @@ select.text-input {
     width: 77%
 }
 
+.minus{
+    color:rgb(135, 250, 233);
+    font-size: large;
+}
+
 .pricing-05__cards_container--4 .pricing-05__card_box {
     width: 180px
 }
