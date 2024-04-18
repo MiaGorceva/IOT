@@ -3734,6 +3734,15 @@ pre {
     width: 100%
 }
 
+.app{
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
 .heading__accent_word {
     position: relative
 }
