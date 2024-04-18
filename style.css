@@ -195,6 +195,16 @@
     stroke: #4D61FC
 }
 
+.commentText_u7N7n{
+    -webkit-line-clamp: 18;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
 .style-blue-1 .border-main,
 .style-blue-1 .content_box .fig-img .img.img-border,
 .content_box .fig-img .style-blue-1 .img.img-border,
