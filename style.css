@@ -5086,7 +5086,6 @@ body .page-component__bg_overlay_box {
     min-height: 44px;
     border-radius: 4px;
     box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2), 0 5px 15px 0 rgba(37, 44, 97, 0.15);
-    font-size: 0;
     line-height: 1.2;
     font-weight: 700;
     -webkit-user-select: none;
