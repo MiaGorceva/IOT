@@ -6730,7 +6730,8 @@ select.text-input {
 .emoji--large {
     height: 55px;
     max-height: 100%;
-    max-width: 100%
+    max-width: 100%;
+    padding-right: 10%
 }
 
 .heading .emoji,
