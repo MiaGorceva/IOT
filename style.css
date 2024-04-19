@@ -3771,6 +3771,19 @@ pre {
     overflow: hidden;
 }
 
+.app_dg9_F{
+    background: #fff;
+    border: 1px solid var(--v6-light-blue);
+    border-radius: 4px;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    height: 100vh;
+    line-height: 24px;
+    padding: 20px;
+    width: 100%;
+}
+
 .data-gr-ext-installed{
     box-sizing: border-box;
     display: flex;
