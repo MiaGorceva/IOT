@@ -3793,6 +3793,21 @@ pre {
     font-family: Proxima Nova, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     font-size: 15px;
     overflow: hidden;
+    text-align: left;
+}
+
+.userName_v0vTF{
+    color: var(--v6-dark-grey);
+    font-weight: 600
+}
+.userHeadline_SNQmt{
+    color: var(--v6-light-grey);
+}
+.user_mnspV{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
 }
 
 .app_dg9_F{
