@@ -3677,7 +3677,8 @@ pre {
 
 .heading,
 .text--04__big_text {
-    font-size: 2em
+    font-size: 2em;
+    ax-width: 500px
 }
 
 @media (max-width: 768px) {
