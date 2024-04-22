@@ -19180,9 +19180,11 @@ a.posts-01__item:focus {
     max-width: 30%;
     flex: 1 0 0;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
     justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap
+    align-items: stretch;
+    align-content: stretch
 }
 
 @media (max-width: 750px) {
