@@ -19132,10 +19132,7 @@ a.posts-01__item:focus {
 }
 
 .footer-02 {
-    padding: 40px 0;
-    margin-right: 3%;
-    margin-left: 3%;
-    padding: 0 15px;
+    padding: 1%;
     display: flex;
     width: 100%;
     flex-direction: row;
