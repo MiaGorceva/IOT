@@ -25899,6 +25899,10 @@ body .featherlight .featherlight-content {
     max-height: 500px
 }
 
+.default-graphics-image{
+    display: flex;
+}
+
 @media (max-width: 600px) {
     .graphics-image:not(.default-graphics-image) .header-39__image {
         max-height: 300px
