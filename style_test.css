@@ -12839,8 +12839,9 @@ select.text-input {
 .slider-05__slider_container {
     position: relative;
     width: 60%;
-    max-width: 750px;
-    text-align: center
+    max-width: 1000px;
+    text-align: center;
+    height: 100%;
 }
 
 @media (max-width: 1250px) {
