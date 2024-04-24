@@ -19166,7 +19166,7 @@ a.posts-01__item:focus {
 .footer-02__wrapper {
     flex: 1 0 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
     align-content: stretch;
     flex-wrap: wrap;
