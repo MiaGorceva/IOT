@@ -3623,7 +3623,7 @@ textarea:focus {
 }
 
 .container--max {
-    width: 95%
+    width: 100%
 }
 
 .container--miteStyle {
@@ -16320,9 +16320,6 @@ a.posts-01__item:focus {
     filter: grayscale(0)
 }
 
-.cta_form-01__container {
-    max-width: 600px
-}
 
 @media (min-width: 1000px) {
     .cta_form-01__tag {
