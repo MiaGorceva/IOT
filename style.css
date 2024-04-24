@@ -4415,7 +4415,6 @@ body .page-component__bg_overlay_box {
 .page-component__wrapper {
     position: relative;
     width: 90%;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
