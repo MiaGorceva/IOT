@@ -19167,7 +19167,6 @@ a.posts-01__item:focus {
 }
 
 .footer-02__wrapper {
-    max-width: 30%;
     flex: 1 0 0;
     display: flex;
     justify-content: space-around;
