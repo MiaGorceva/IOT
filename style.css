@@ -26007,8 +26007,7 @@ body .featherlight .featherlight-content {
 }
 
 .graphics-video:not(.default-graphics-video) .graphics-video__video-element {
-    padding-top: 56.25%;
-    position: relative
+    padding-top: 56.25%
 }
 
 .graphics-video:not(.default-graphics-video) .graphics-video__video-element .video-01__iframe,
