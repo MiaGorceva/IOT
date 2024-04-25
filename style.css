@@ -8458,10 +8458,11 @@ select.text-input {
     padding: 0;
     margin: 0;
     list-style: none;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    font-size: small;
 }
 
 .social-buttons__item {
