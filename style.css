@@ -15185,7 +15185,6 @@ select.text-input {
 }
 
 .pricing-05__cards_mobile .pricing-05__info {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 24px
