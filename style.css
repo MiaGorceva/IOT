@@ -19167,10 +19167,18 @@ a.posts-01__item:focus {
     flex: 1 0 0;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items:center;
     align-content: stretch;
     flex-wrap: wrap;
     width: 100%
+}
+
+footer-02__wrapper--left{
+    align-items: left;
+}
+
+footer-02__wrapper--right{
+    align-items: right;
 }
 
 @media (max-width: 750px) {
