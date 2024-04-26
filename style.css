@@ -13114,6 +13114,10 @@ select.text-input {
     }
 }
 
+.flex-footer{
+    display:flex
+}
+
 .slider-07__wrapper {
     display: flex;
     justify-content: center;
@@ -19124,7 +19128,7 @@ a.posts-01__item:focus {
 }
 
 .footer-02 {
-    padding: 3%;
+    padding: 1%;
     width: 100%;
     display:flex
 }
