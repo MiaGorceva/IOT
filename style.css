@@ -3627,7 +3627,15 @@ textarea:focus {
 }
 
 .container--miteStyle {
-    max-width: 55%
+    max-width: 55%;
+}
+
+.container--miteStyle--mobile{
+    display: none
+}
+
+.container--miteStyle--desktop{
+    display: none
 }
 
 .container--miteStyle--big {
