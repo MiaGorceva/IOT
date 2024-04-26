@@ -14979,7 +14979,8 @@ select.text-input {
     padding: 30px 20px 10px;
     text-align: center;
     border-radius: 10px 10px 0 0;
-    vertical-align: baseline
+    vertical-align: baseline;
+    width: 100%;
 }
 
 .pricing-05__item_icon {
