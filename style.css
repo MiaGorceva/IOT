@@ -3634,10 +3634,6 @@ textarea:focus {
     display: none
 }
 
-.container--miteStyle--desktop{
-    display: none
-}
-
 .container--miteStyle--big {
     max-width: 75%
 }
