@@ -15606,15 +15606,16 @@ a.posts-01__item:focus {
 
 .posts-02__item {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-start;
     flex-wrap: nowrap;
-    width: calc(50% - 10px);
-    padding: 28px 20px 22px 20px;
+    width: calc(24% - 10px);
+    padding: 24px 24px 32px 24px;
     margin-bottom: 20px;
-    margin-right: 20px;
-    border-radius: 10px;
-    border: 1px solid #eee
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 16px;
+    flex-direction: column-reverse
 }
 
 .posts-02__item--accent {
