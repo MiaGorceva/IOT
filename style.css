@@ -13120,7 +13120,8 @@ select.text-input {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap
+    flex-wrap: nowrap;
+    flex-direction: row
 }
 
 @media (max-width: 950px) {
