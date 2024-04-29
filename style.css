@@ -19134,7 +19134,8 @@ a.posts-01__item:focus {
 }
 
 .footer-02 .social-buttons__link {
-    opacity: 0.5
+    opacity: 0.5;
+    margin-right: 10%;
 }
 
 .footer-02 .social-buttons__link:hover {
