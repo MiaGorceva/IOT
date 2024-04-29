@@ -19177,6 +19177,16 @@ a.posts-01__item:focus {
     flex-direction: column
 }
 
+.footer-02--center{
+    align-items: center;
+    display: flex;
+    flex-direction: column
+}
+
+.footer-02--left{
+    align-items: end
+}
+
 footer-02__wrapper--left{
     align-items: left;
 }
