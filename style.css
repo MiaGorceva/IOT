@@ -19170,10 +19170,11 @@ a.posts-01__item:focus {
     flex: 1 0 0;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: flex-start;
     align-content: stretch;
     flex-wrap: wrap;
-    width: 100%
+    width: 100%;
+    flex-direction: column
 }
 
 footer-02__wrapper--left{
