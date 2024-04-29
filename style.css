@@ -19187,14 +19187,6 @@ a.posts-01__item:focus {
     align-items: end
 }
 
-footer-02__wrapper--left{
-    align-items: left;
-}
-
-footer-02__wrapper--right{
-    align-items: right;
-}
-
 @media (max-width: 750px) {
     .footer-02__wrapper {
         display: block
