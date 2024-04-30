@@ -8575,7 +8575,6 @@ select.text-input {
 .comps .nav-02__link {
     text-decoration: none;
     color: inherit;
-    display: inline-flex;
     align-items: center;
     justify-content: flex-start;
     vertical-align: middle;
