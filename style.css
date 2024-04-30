@@ -8576,10 +8576,12 @@ select.text-input {
 .comps .nav-02__link {
     text-decoration: none;
     color: inherit;
-    align-items: center;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: space-between;
     vertical-align: middle;
-    transition: opacity 0.25s ease
+    transition: opacity 0.25s ease;
+    justify-items: center;
+    align-items: center
 }
 
 .comps .nav-02__link:hover {
