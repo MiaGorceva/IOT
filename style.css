@@ -8565,6 +8565,7 @@ select.text-input {
     position: relative;
     z-index: 50;
     width: 100%;
+    padding-right: 100px
 }
 
 @media (max-width: 900px) {
