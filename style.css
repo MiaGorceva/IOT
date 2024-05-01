@@ -18251,7 +18251,8 @@ a.posts-01__item:focus {
 }
 
 .contact-01__map_box {
-    margin-top: 80px
+    margin-top: 80px;
+    width: 100px;
 }
 
 .contact-01__map {
