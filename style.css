@@ -19174,12 +19174,10 @@ a.posts-01__item:focus {
 .footer-02__wrapper {
     flex: 1 0 0;
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     align-content: stretch;
     flex-wrap: wrap;
-    width: 100%;
-    flex-direction: column
+    justify-content: flex-end;
 }
 
 .footer-02--center{
