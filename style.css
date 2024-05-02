@@ -7766,9 +7766,10 @@ select.text-input {
     display: inline-block;
     vertical-align: middle;
     margin-right: 15px;
-    max-height: 40px;
-    max-width: 40px;
-    width: 100%
+    max-height: 50px;
+    max-width: 50px;
+    width: 100%;
+    float:inline-start
 }
 
 .feature__link {
