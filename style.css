@@ -8580,12 +8580,10 @@ select.text-input {
     color: inherit;
     display: flex;
     transition: opacity 0.25s ease;
-    justify-items: flex-end;
-    align-items: flex-end;
+    justify-items: baseline;
+    align-items: flex-start;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: flex-end
+    flex-wrap: nowrap
 }
 
 .comps .nav-02__link:hover {
