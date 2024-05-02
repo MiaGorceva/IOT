@@ -4077,7 +4077,10 @@ pre {
 
 .content_box ul {
     list-style: none;
-    padding-left: 0
+    padding-left: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column
 }
 
 .content_box h2,
@@ -4229,7 +4232,7 @@ pre {
     width: 3px;
     vertical-align: middle;
     display: inline-block;
-    margin-right: 0.7em;
+    margin-right: 1.5em;
     box-shadow: 0 1px 6px 0 #32bdb3
 }
 
