@@ -8563,8 +8563,7 @@ select.text-input {
 
 .nav-02__logo {
     position: relative;
-    z-index: 50;
-    padding-right: 100px
+    z-index: 50
 }
 
 @media (max-width: 900px) {
