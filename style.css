@@ -10761,6 +10761,8 @@ select.text-input {
     left: 0;
     top: 0;
     right: 0;
+    height:50px;
+    float: inline-start;
     margin: auto;
     transform: translateY(-50%)
 }
