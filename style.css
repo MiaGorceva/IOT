@@ -8584,7 +8584,7 @@ select.text-input {
     align-items: flex-end;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: flex-end;
+    align-content: center;
     justify-content: flex-end
 }
 
