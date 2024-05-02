@@ -8576,12 +8576,12 @@ select.text-input {
 .comps .nav-02__link {
     text-decoration: none;
     color: inherit;
-    display: flex;
     justify-content: space-between;
     vertical-align: middle;
     transition: opacity 0.25s ease;
     justify-items: center;
-    align-items: center
+    align-items: center;
+    flex-direction: column;
 }
 
 .comps .nav-02__link:hover {
@@ -18259,7 +18259,7 @@ a.posts-01__item:focus {
     display: inline-block;
     position: relative;
     overflow: hidden;
-    width: 250px;
+    width: 70%;
     height: 150px;
     text-decoration: none;
     border-radius: 10px;
