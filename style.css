@@ -7739,7 +7739,8 @@ select.text-input {
 
 .feature__title {
     margin-top: 0;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    max-width: 220px;
 }
 
 .feature__title_text {
