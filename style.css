@@ -12943,7 +12943,7 @@ select.text-input {
 
 .slider-05__slider_container {
     position: relative;
-    width: 60%;
+    width: 65%;
     max-width: 1000px;
     text-align: center;
     height: 100%;
@@ -13012,7 +13012,8 @@ select.text-input {
     padding: 0;
     margin: 0;
     list-style: none;
-    padding-left: 60px
+    padding-left: 60px;
+    width: 35%;
 }
 
 @media (max-width: 1370px) {
