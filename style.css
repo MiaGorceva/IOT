@@ -7742,6 +7742,9 @@ select.text-input {
     margin-bottom: 15px;
     max-width: 250px;
 }
+.feature__title--big{
+    max-width: 100%!important;
+}
 
 .feature__title_text {
     text-transform: uppercase;
