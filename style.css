@@ -7743,7 +7743,7 @@ select.text-input {
     max-width: 250px;
 }
 .feature__title--big{
-    max-width: 100%!important;
+    width: 100%!important;
 }
 
 .feature__title_text {
