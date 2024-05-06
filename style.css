@@ -12973,7 +12973,8 @@ select.text-input {
 .slider-05__item {
     padding-bottom: 40px;
     padding-top: 40px;
-    text-align: center
+    text-align: center;
+    width: 80%!important;
 }
 
 @media (max-width: 950px) {
