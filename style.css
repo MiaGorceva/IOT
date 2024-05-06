@@ -7751,7 +7751,8 @@ select.text-input {
 }
 
 .feature__content {
-    margin: auto
+    margin: auto;
+    max-width: 400px;
 }
 
 .feature__content_text {
