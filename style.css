@@ -7747,7 +7747,8 @@ select.text-input {
 
 .feature__title_text {
     text-transform: uppercase;
-    font-size: 12px
+    font-size: 12px;
+    max-width: 400px
 }
 
 .feature__content {
@@ -13047,8 +13048,7 @@ select.text-input {
 }
 
 .slider-05__feature {
-    margin-bottom: 40px;
-    max-width: 400px
+    margin-bottom: 40px
 }
 
 .slider-05__feature:last-child {
