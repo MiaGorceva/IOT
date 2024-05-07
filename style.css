@@ -19191,15 +19191,13 @@ a.posts-01__item:focus {
 @media (max-width: 750px) {
     .footer-02__wrapper {
         display: flex;
-        justify-content: center;
         flex-wrap: nowrap
     }
 }
 
 @media (max-width: 750px) {
     .footer-02__wrapper {
-        flex-direction: column;
-        justify-content: stretch
+       flex-direction: column;
     }
 }
 
