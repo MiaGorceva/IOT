@@ -19170,7 +19170,7 @@ a.posts-01__item:focus {
 .footer-02__wrapper {
     flex: 1 0 0;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     align-content: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -19184,9 +19184,6 @@ a.posts-01__item:focus {
     flex-direction: column
 }
 
-.footer-02--left{
-    align-items: end
-}
 
 @media (max-width: 750px) {
     .footer-02__wrapper .nav-02__link {
