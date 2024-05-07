@@ -19174,7 +19174,8 @@ a.posts-01__item:focus {
     align-content: stretch;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex-direction: column
+    flex-direction: column;
+    height: 250px
 }
 
 .footer-02--center{
