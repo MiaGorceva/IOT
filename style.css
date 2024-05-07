@@ -19173,7 +19173,8 @@ a.posts-01__item:focus {
     align-items: flex-start;
     align-content: stretch;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
+    flex-direction: column
 }
 
 .footer-02--center{
