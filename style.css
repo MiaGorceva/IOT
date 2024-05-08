@@ -15630,7 +15630,7 @@ a.posts-01__item:focus {
     align-items: flex-start;
     flex-wrap: nowrap;
     width: calc(24% - 10px);
-    padding: 24px 24px 32px 24px;
+    padding: 24px 24px 32px 12px;
     margin-bottom: 20px;
     margin-right: 8px;
     margin-left: 8px;
