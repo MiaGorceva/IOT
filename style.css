@@ -3499,7 +3499,7 @@
 
 html .comps {
     height: 100%;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -4280,9 +4280,9 @@ pre {
 .content_box figure,
 .content_box blockquote,
 .content_box code {
-    margin-bottom: 1em;
-    margin-top: 1em;
-    line-height: 1.6
+    margin-bottom: 2em;
+    margin-top: 2em;
+    line-height: 2.2
 }
 
 .content_box iframe {
