@@ -7750,6 +7750,7 @@ select.text-input {
 
 .feature__content {
     max-width: 400px;
+    font-size: 16px
 }
 
 .feature__content_text {
