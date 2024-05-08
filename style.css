@@ -7888,6 +7888,13 @@ select.text-input {
     }
 }
 
+@media (max-width: 900px) {
+    .container--miteStyle {
+        max-width: 85%;
+    }
+    
+}
+
 .form__textarea {
     position: relative;
     width: 100%;
