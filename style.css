@@ -3758,7 +3758,8 @@ pre {
 
 .masonryColumn_QPJXT{
     background-clip: padding-box;
-    padding-left: 30px
+    padding-left: 30px;
+    width: 100%
 }
 
 .masonry_ZY9Sc{
@@ -15691,6 +15692,7 @@ a.posts-01__item:focus {
     display: flex;
     height: 100%;
     width: 100%;
+    flex-direction: column
 }
 
 
