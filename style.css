@@ -19208,6 +19208,7 @@ a.posts-01__item:focus {
 
 .footer-02--right{
     flex-direction: row;
+    align-items: self-start
 }
 
 
