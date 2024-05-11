@@ -19206,8 +19206,8 @@ a.posts-01__item:focus {
     flex-direction: column
 }
 
-.footer-02--left{
-    align-items: left;
+.footer-02--right{
+    flex-direction: row;
 }
 
 
