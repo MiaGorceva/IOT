@@ -13869,6 +13869,13 @@ select.text-input {
 }
 
 @media (max-width: 500px) {
+.title-box{
+    text-align: left;
+    width: 100%;
+}}
+
+
+@media (max-width: 500px) {
     .pricing-01__card_title {
         font-size: 17px;
         max-width: 100%;
