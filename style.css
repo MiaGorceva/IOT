@@ -3767,7 +3767,8 @@ pre {
     display: -ms-flexbox;
     display: flex;
     margin-left: -30px;
-    width: auto
+    width: auto;
+    flex-direction: column
 }
 
 .starRating_b1dI8{
