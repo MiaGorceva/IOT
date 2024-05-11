@@ -4286,6 +4286,8 @@ pre {
     margin-bottom: 2em;
     margin-top: 2em;
     line-height: 1.6;
+    font-size: medium;
+    font-weight: 500
 }
 
 .content_box iframe {
