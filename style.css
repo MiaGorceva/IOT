@@ -19211,7 +19211,8 @@ a.posts-01__item:focus {
 @media (max-width: 500px){
     .footer-02--right{
         flex-direction: row;
-        align-items: self-start
+        align-items: self-start;
+        align-content: space-between
     }
 }
 
@@ -19248,11 +19249,6 @@ a.posts-01__item:focus {
     opacity: 0.85
 }
 
-@media (max-width: 750px) {
-    .footer-02__text {
-        margin-bottom: 20px
-    }
-}
 
 .footer-02 a {
     text-decoration: none;
