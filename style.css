@@ -13874,6 +13874,7 @@ select.text-input {
 .title-box{
     text-align: left;
     width: 100%;
+    max-width: 100%
 }}
 
 
