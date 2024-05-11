@@ -8596,7 +8596,8 @@ select.text-input {
     justify-items: baseline;
     align-items: flex-start;
     flex-direction: row;
-    flex-wrap: nowrap
+    flex-wrap: nowrap;
+    justify-content: space-between
 }
 
 .comps .nav-02__link:hover {
