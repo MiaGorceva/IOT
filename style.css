@@ -23723,6 +23723,7 @@ html .bg-accent-color .features-09__item--new,
     overflow: hidden;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    font-size: small
 }
 
 @media (max-width: 500px) {
@@ -23820,8 +23821,6 @@ html .bg-accent-color .features-09__item--new,
     display: flex;
     align-content: center;
     justify-content: space-between;
-    padding-top: 15px;
-    padding-bottom: 15px
 }
 
 @media (max-width: 500px) {
