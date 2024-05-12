@@ -3771,7 +3771,7 @@ pre {
     flex-direction: row
 }
 
-@media (max-width: 500px){
+@media (max-width: 700px){
     .masonry_ZY9Sc {
         flex-direction: column;
     }
