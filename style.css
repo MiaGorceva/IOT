@@ -7969,7 +7969,6 @@ select.text-input {
 
 .form__button {
     margin-left: 15px;
-    font-size: 10px
 }
 
 .form__input:first-child+.form__button {
