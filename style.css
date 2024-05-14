@@ -7971,7 +7971,7 @@ select.text-input {
     margin-left: 15px;
 }
 
-@media (max-width: 500px {
+@media (max-width: 500px) {
     .footer-02__mobile{
         visibility: hidden;
     }
