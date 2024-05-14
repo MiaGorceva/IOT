@@ -15236,7 +15236,8 @@ select.text-input {
 .pricing-05__cards_mobile .pricing-05__header_text {
     min-width: auto;
     padding: 0;
-    text-align: left
+    text-align: left;
+    max-width: 60px
 }
 
 .pricing-05__cards_mobile .pricing-05__row::after {
