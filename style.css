@@ -10758,13 +10758,13 @@ select.text-input {
 
 .header-27__item {
     position: relative;
-    display: inline-block;
     vertical-align: top;
     margin: 0 15px 50px;
     padding: 10px 20px 15px 20px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: white
+    background-color: white;
+    display: flex;
 }
 
 .header-27__title {
