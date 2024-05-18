@@ -3627,17 +3627,6 @@ textarea:focus {
     max-width: 95%
 }
 
-.container--miteStyle {
-    max-width: 45%;
-}
-
-.container--miteStyle--mobile{
-    display: none
-}
-
-.container--miteStyle--big {
-    max-width: 75%
-}
 
 header {
     position: relative;
@@ -7748,6 +7737,7 @@ select.text-input {
 .feature__title {
     margin-top: 0;
     margin-bottom: 15px;
+    line-height: 110%;
 }
 
 .feature__title_text {
@@ -7898,12 +7888,6 @@ select.text-input {
     }
 }
 
-@media (max-width: 900px) {
-    .container--miteStyle {
-        max-width: 85%;
-    }
-    
-}
 
 .form__textarea {
     position: relative;
