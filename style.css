@@ -10768,7 +10768,8 @@ select.text-input {
 
 .header-27__title {
     margin-bottom: 7px;
-    font-size: 20px
+    font-size: 20px;
+    margin-top: 0px;
 }
 
 .font-source-code-pro .header-27__title {
