@@ -10761,7 +10761,6 @@ select.text-input {
     display: inline-block;
     vertical-align: top;
     margin: 0 15px 50px;
-    max-width: 250px;
     padding: 10px 20px 15px 20px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
