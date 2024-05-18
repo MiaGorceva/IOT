@@ -10752,8 +10752,9 @@ select.text-input {
     padding: 0;
     margin: 0;
     list-style: none;
-    text-align: justufy;
-    display: flex
+    text-align: justify;
+    display: flex;
+    flex: 1 0 0
 }
 
 .header-27__item {
