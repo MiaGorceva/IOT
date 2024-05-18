@@ -10783,14 +10783,9 @@ select.text-input {
 }
 
 .header-27__emoji {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    height:50px;
+    height: 50px;
     float: inline-start;
-    margin: auto;
-    transform: translateY(-50%)
+    margin-right: 20px
 }
 
 .header-27__emoji img,
