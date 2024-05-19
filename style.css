@@ -7888,6 +7888,18 @@ select.text-input {
     }
 }
 
+.marker{
+    position: relative;
+    padding-left: 1.5em; /* Отступ для маркера */
+    text-indent: -1.5em;
+}
+
+ul li::before {
+    content: '•'; /* Вы можете изменить это на любой маркер */
+    position: absolute;
+    left: 0;
+    width: 1.5em; /* Ширина маркера */
+  }
 
 .form__textarea {
     position: relative;
