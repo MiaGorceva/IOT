@@ -7889,9 +7889,8 @@ select.text-input {
 }
 
 .marker{
-    position: relative;
-    padding-left: 1.5em; /* Отступ для маркера */
-    text-indent: -1.5em;
+    text-indent: -1.9em;
+    text-align: justify;
 }
 
 ul li::before {
