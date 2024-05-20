@@ -4226,6 +4226,26 @@ pre {
     position: relative
 }
 
+.content_box--left ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+.content_box--left ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.content_box--left ul li::after {
+    content: "";
+    height: 6px;
+    border-radius: 50%;
+    width: 6px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 1.5em;
+    box-shadow: 0 1px 6px 0 #54c54a
+}
+
 .content_box ul li:before {
     content: "";
     height: 6px;
@@ -4234,7 +4254,7 @@ pre {
     vertical-align: middle;
     display: inline-block;
     margin-right: 1.5em;
-    box-shadow: 0 1px 6px 0 #32bdb3
+    box-shadow: 0 1px 6px 0 #54c54a
 }
 
 .style-purple-1 .content_box ul li:before {
