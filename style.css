@@ -4226,16 +4226,16 @@ pre {
     position: relative
 }
 
-.content_box--left ul {
+.content_box--left_style ul {
     list-style-position: inside;
     padding: 0;
     margin: 0;
 }
-.content_box--left ul li {
+.content_box--left_style ul li {
     display: flex;
     justify-content: space-between;
 }
-.content_box--left ul li::after {
+.content_box--left_style ul li::after {
     content: "";
     height: 6px;
     border-radius: 50%;
