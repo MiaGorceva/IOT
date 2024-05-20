@@ -23903,7 +23903,7 @@ html .bg-accent-color .features-09__item--new,
 }
 
 .lang-widget {
-    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
+   /* box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);&*/
     white-space: nowrap;
     font-size: 12px;
     position: absolute;
