@@ -7890,6 +7890,7 @@ select.text-input {
 
 .marker{
     text-align: justify;
+    text-indent: -1.8em;
 }
 
 ul li::before {
