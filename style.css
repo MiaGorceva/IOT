@@ -5387,7 +5387,7 @@ body .page-component__bg_overlay_box {
     height: 0;
     border-style: solid;
     border-width: 6px 5px 0 5px;
-    border-color: #54a54b transparent transparent transparent;
+    border-color: black transparent transparent transparent;
     transition: .2s ease transform
 }
 
