@@ -4426,8 +4426,8 @@ body .page-component__bg_overlay_box {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top:70px;
-    padding-bottom:70px;
+    padding-top: 70px;
+    padding-bottom: 70px
 }
 
 .js-lightbox-single-image {
