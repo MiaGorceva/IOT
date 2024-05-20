@@ -7754,7 +7754,6 @@ select.text-input {
 }
 
 .feature__content {
-    max-width: 400px;
     font-size: 16px
 }
 
@@ -12978,7 +12977,7 @@ ul li::before {
 
 .slider-05__slider_container {
     position: relative;
-    width: 60%;
+    width: 50%;
     max-width: 1000px;
     text-align: center;
     height: 100%;
@@ -13049,7 +13048,7 @@ ul li::before {
     margin: 0;
     list-style: none;
     padding-left: 60px;
-    width: 40%;
+    width: 50%;
 }
 
 @media (max-width: 1370px) {
