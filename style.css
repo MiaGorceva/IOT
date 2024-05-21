@@ -6313,7 +6313,7 @@ select.text-input {
     right: 0;
     visibility: hidden;
     border-radius: 4px;
-    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
+   /* box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);*/
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
@@ -7792,6 +7792,7 @@ select.text-input {
     max-height: 50px;
     max-width: 50px;
     width: 100%;
+    margin-left: -10px;
     float:inline-start;
 }
 
@@ -13066,7 +13067,7 @@ ul li::before {
     margin: 0;
     list-style: none;
     padding-left: 60px;
-    width: 55%;
+    width: 50%;
 }
 
 @media (max-width: 1370px) {
