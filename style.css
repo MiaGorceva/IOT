@@ -10812,7 +10812,8 @@ ul li::before {
 .header-27__info {
     opacity: 0.6;
     margin-bottom: 10px;
-    font-size: 14px
+    font-size: 14px;
+    height: 360px;
 }
 
 .header-27__emoji {
