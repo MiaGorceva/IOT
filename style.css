@@ -10778,7 +10778,6 @@ ul li::before {
     flex: 1 0 0;
     align-items: stretch;
     justify-content: space-evenly;
-    height: 500px;
 }
 
 .header-27__item {
