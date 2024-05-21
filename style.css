@@ -4225,16 +4225,16 @@ pre {
     position: relative
 }
 
-.content_box--left_style ul {
+.steps-01__text--left_style ul {
     list-style-position: inside;
     padding: 0;
     margin: 0;
 }
-.content_box--left_style ul li {
+.steps-01__text--left_style ul li {
     display: flex;
     justify-content: space-between;
 }
-.content_box--left_style ul li::after {
+.steps-01__text --left_style ul li::after {
     content: "";
     height: 6px;
     border-radius: 50%;
