@@ -7800,7 +7800,7 @@ select.text-input {
     position: relative;
     display: inline-block;
     margin-top: 15px;
-    font-weight: 700;
+   /* font-weight: 700;*/
     text-decoration: none
 }
 
