@@ -4068,7 +4068,6 @@ pre {
 
 .content_box {
     line-height: 1.6;
-    backdrop-filter: brightness(1.3);
 }
 
 .content_box ul,
@@ -10758,8 +10757,7 @@ ul li::before {
 }
 
 .header-27__buttons {
-    margin-top: 40px;
-    margin-bottom: 50px;
+    padding: 3%;
     backdrop-filter: brightness(1.3)
 }
 
