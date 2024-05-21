@@ -10778,6 +10778,7 @@ ul li::before {
     flex: 1 0 0;
     align-items: stretch;
     justify-content: space-evenly;
+    height: 500px;
 }
 
 .header-27__item {
@@ -10792,10 +10793,9 @@ ul li::before {
 }
 
 .header-27__link{
-    margin-bottom: 0px;
-    float:inline-end;
-    margin-top: 5%;
-    text-align: center
+    text-align: left;
+    position: absolute;
+    bottom: 10px;
 }
 
 .header-27__title {
