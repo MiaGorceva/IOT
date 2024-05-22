@@ -4230,11 +4230,11 @@ pre {
     padding: 0;
     margin: 0;
 }
-.steps-01__text__leftStyle ul li {
+.content_box--leftStyle ul li {
     display: flex;
     justify-content: space-between;
 }
-.steps-01__text__leftStyle ul li::after {
+.steps-01__text--leftStyle ul li::after {
     content: "";
     height: 6px;
     border-radius: 50%;
