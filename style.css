@@ -4248,11 +4248,28 @@ pre {
     margin: 0;
 }
 
-.content_box leftStyle ul li {
+.content_box--leftStyle ul li {
     display: flex;
     justify-content: space-between;
 }
-.step-01__text--leftStyle ul li::after {
+
+.leftStyle ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+.leftStyle ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+.leftStyle ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftStyle ul li::after {
     content: "";
     height: 6px;
     border-radius: 50%;
