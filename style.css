@@ -4225,12 +4225,12 @@ pre {
     position: relative
 }
 
-.content_box leftStyle ul {
+.content_box--leftStyle ul {
     list-style-position: inside;
     padding: 0;
     margin: 0;
 }
-.content_box leftStyle ul li {
+.content_box--leftStyle ul li {
     display: flex;
     justify-content: space-between;
 }
