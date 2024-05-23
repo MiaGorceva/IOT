@@ -4249,7 +4249,7 @@ pre {
     background-color: #54c54a;
 }
 
-.content_box ul li:before :not(.leftStyle){
+.content_box ul li::before:not(.leftStyle){
     content: "";
     height: 6px;
     border-radius: 50%;
