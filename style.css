@@ -4236,7 +4236,7 @@ pre {
     justify-content: flex-end;
 }
 
-.leftStyle ul li::after {
+.leftStyle ul li::after:not(.code-01__container_box ul li::before) {
     content: "";
     height: 6px;
     border-radius: 50%;
@@ -4248,7 +4248,7 @@ pre {
     background-color: #54c54a;
 }
 
-.content_box ul li:before:not(.leftStyle::after){
+.content_box ul li:before{
     content: "";
     height: 6px;
     border-radius: 50%;
