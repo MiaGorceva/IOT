@@ -4225,39 +4225,6 @@ pre {
     position: relative
 }
 
-.content_box__leftStyle ul {
-    list-style-position: inside;
-    padding: 0;
-    margin: 0;
-}
-
-.content_box leftStyle ul {
-    list-style-position: inside;
-    padding: 0;
-    margin: 0;
-}
-
-.content_box leftStyle ul {
-    list-style-position: inside;
-    padding: 0;
-    margin: 0;
-}
-.step-01__text__leftStyle ul {
-    list-style-position: inside;
-    padding: 0;
-    margin: 0;
-}
-
-.content_box .leftStyle ul li {
-    display: flex;
-    justify-content: space-between;
-}
-
-.leftStyle ul {
-    list-style-position: inside;
-    padding: 0;
-    margin: 0;
-}
 .leftStyle ul {
     list-style-position: inside;
     padding: 0;
@@ -10826,9 +10793,8 @@ ul li::before {
 }
 
 .header-27__link{
-    text-align: left;
-    position: absolute;
-    bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header-27__title {
