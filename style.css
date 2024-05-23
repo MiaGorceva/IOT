@@ -4236,7 +4236,7 @@ pre {
     justify-content: flex-end;
 }
 
-.leftStyle ul li::after{
+/*.leftStyle ul li::after{
     content: "";
     height: 6px;
     border-radius: 50%;
@@ -4246,9 +4246,9 @@ pre {
     margin-left: 1.5em;
     box-shadow: 0 1px 6px 0 #54c54a;
     background-color: #54c54a;
-}
+}*/
 
-.content_box ul li:before:not(.leftStyle){
+.content_box ul li:before /*:not(.leftStyle)*/{
     content: "";
     height: 6px;
     border-radius: 50%;
@@ -7922,12 +7922,6 @@ select.text-input {
     text-indent: -1.8em;
     padding-left: 1.8em
 }
-
-ul li::before {
-    content: ''; /* Вы можете изменить это на любой маркер */
-    left: 0;
-    width: 1.5em; /* Ширина маркера */
-  }
 
 .form__textarea {
     position: relative;
