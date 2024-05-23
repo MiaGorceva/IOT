@@ -3672,7 +3672,8 @@ pre {
 .heading,
 .text--04__big_text {
     font-size: 2em;
-    max-width: 700px
+    max-width: 700px;
+    text-align: center
 }
 
 @media (max-width: 768px) {
