@@ -4233,7 +4233,7 @@ pre {
 
 .leftStyle ul li {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .leftStyle ul li::after {
@@ -4244,10 +4244,11 @@ pre {
     vertical-align: middle;
     display: inline-block;
     margin-left: 1.5em;
-    box-shadow: 0 1px 6px 0 #54c54a
+    box-shadow: 0 1px 6px 0 #54c54a;
+    background-color: #54c54a;
 }
 
-.content_box ul li:before {
+.content_box ul li:before:not(.leftStyle::after){
     content: "";
     height: 6px;
     border-radius: 50%;
