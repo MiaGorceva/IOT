@@ -4236,7 +4236,7 @@ pre {
     justify-content: flex-end;
 }
 
-.leftStyle ul li::after:not(.code-01__container_box ul li::before) {
+.leftStyle ul li::after:not(.container_box ul li::before) {
     content: "";
     height: 6px;
     border-radius: 50%;
