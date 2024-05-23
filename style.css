@@ -23196,7 +23196,7 @@ html .bg-accent-color .features-09__item--new,
 }
 
 .steps-03__item {
-    text-align: center
+    text-align: justify
 }
 
 .steps-03__item--1-5 {
@@ -23229,6 +23229,7 @@ html .bg-accent-color .features-09__item--new,
 
 .steps-03__img_box {
     position: relative;
+    padding-left: 25%
 }
 
 .steps-03__img{
