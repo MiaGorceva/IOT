@@ -4232,11 +4232,11 @@ pre {
 }
 
 .leftStyle ul li {
-    display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
-/*.leftStyle ul li::after{
+.leftStyle ul li::after{
     content: "";
     height: 6px;
     border-radius: 50%;
@@ -4246,9 +4246,9 @@ pre {
     margin-left: 1.5em;
     box-shadow: 0 1px 6px 0 #54c54a;
     background-color: #54c54a;
-}*/
+}
 
-.content_box ul li:before /*:not(.leftStyle)*/{
+.content_box ul li:before :not(.leftStyle){
     content: "";
     height: 6px;
     border-radius: 50%;
