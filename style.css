@@ -23228,6 +23228,9 @@ html .bg-accent-color .features-09__item--new,
 
 .steps-03__img_box {
     position: relative;
+}
+
+.steps-03__img{
     width: 140px;
     height: 140px;
 }
