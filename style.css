@@ -20405,7 +20405,8 @@ body .text--04__big_text * {
     padding: 0;
     margin: 0;
     list-style: none;
-    margin-top: 30px
+    margin-top: 30px;
+    max-width: 70%;
 }
 
 .faq-01__question {
