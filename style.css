@@ -23186,7 +23186,7 @@ html .bg-accent-color .features-09__item--new,
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 70px;
-    width: 90%;
+    width: 100%;
 }
 
 @media (max-width: 750px) {
