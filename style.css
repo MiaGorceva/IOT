@@ -19257,7 +19257,7 @@ a.posts-01__item:focus {
 }
 
 .footer-02--right{
-    align-items: flex-start;
+    align-items: center;
 }
 
 @media (max-width: 500px){
@@ -19304,7 +19304,8 @@ a.posts-01__item:focus {
 
 .footer-02 a {
     text-decoration: none;
-    color: inherit
+    color: inherit;
+    margin-left: 20px;
 }
 
 .footer-04 {
