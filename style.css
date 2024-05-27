@@ -19241,12 +19241,11 @@ a.posts-01__item:focus {
 .footer-02__wrapper {
     flex: 1 0 0;
     display: flex;
-    align-items: flex-end;
-    align-content: stretch;
+    align-items: flex-start;
+    /* align-content: flex-start; */
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
-   /* height: 280px*/
 }
 
 .footer-02--center{
