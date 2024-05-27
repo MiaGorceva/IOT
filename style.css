@@ -19251,7 +19251,9 @@ a.posts-01__item:focus {
 .footer-02--center{
     align-items: center;
     display: flex;
-    flex-direction: column
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: flex-end;
 }
 
 .footer-02--right{
