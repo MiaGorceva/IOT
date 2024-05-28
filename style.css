@@ -7997,6 +7997,12 @@ select.text-input {
     }
 }
 
+@media (max-width: 500px) {
+    .footer-02__mobile .footer-02--center{
+        visibility: hidden;
+    }
+}
+
 .form__input:first-child+.form__button {
     margin-left: 0
 }
