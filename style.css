@@ -8623,7 +8623,7 @@ select.text-input {
 
 @media (max-width: 500px) {
     .nav-02__link {
-        padding: 0;
+        padding: 0!important;
     }
 }
 .comps .nav-02__link {
