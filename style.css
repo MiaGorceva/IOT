@@ -8626,6 +8626,13 @@ select.text-input {
         padding: 0!important;
     }
 }
+
+@media (max-width: 900px){
+    .content_box .header-27__item{
+        width: 100%!important;
+    }
+}
+
 .comps .nav-02__link {
     text-decoration: none;
     color: inherit;
