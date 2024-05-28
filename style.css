@@ -13225,7 +13225,7 @@ select.text-input {
 
 @media (max-width: 600px) {
     .slider-07 .slider__arrow {
-        display: none
+      /*  display: none*/
     }
 }
 
