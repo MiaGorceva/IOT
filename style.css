@@ -8661,10 +8661,8 @@ select.text-input {
 
 @media (max-width: 900px){
     .header-27__item{
-        width: 97% !important;
-        margin-top: 100px !important;
+        width: 75% !important;
         padding-right: 70px !important;
-        height: 350px;
     }
 }
 
