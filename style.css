@@ -8636,6 +8636,24 @@ select.text-input {
 }
 
 @media (max-width: 900px){
+    .leftStyle ul li::before {
+        content: "";
+        height: 6px;
+        border-radius: 50%;
+        width: 6px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 1.5em;
+        box-shadow: 0 1px 6px 0 #54c54a;
+        background-color: #54c54a;
+    }
+
+    .leftStyle ul li::after{
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 900px){
     .header-27__links {
         flex-direction: column;
     }
