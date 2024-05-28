@@ -8636,6 +8636,12 @@ select.text-input {
 }
 
 @media (max-width: 900px){
+    .header-27__links {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px){
     .header-27__item{
         width: 100%!important;
     }
