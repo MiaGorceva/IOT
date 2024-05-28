@@ -8630,6 +8630,8 @@ select.text-input {
 @media (max-width: 900px){
     .content_box {
         width: 100%!important;
+        margin-left: 3%;
+        margin-right: 3%
     }
 }
 
