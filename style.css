@@ -8628,7 +8628,7 @@ select.text-input {
 }
 
 @media (max-width: 900px){
-    .content_box .header-27__item{
+    .content_box {
         width: 100%!important;
     }
 }
