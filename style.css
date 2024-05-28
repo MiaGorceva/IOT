@@ -8617,16 +8617,10 @@ select.text-input {
 
 @media (max-width: 900px) {
     .nav-02__logo {
-        padding: 5px 5px 5px 0
+        padding: 0
     }
 }
 
-@media (max-width: 500px) {
-    .nav-02__logo {
-        height: 50px;
-        width: 60px
-    }
-}
 .comps .nav-02__link {
     text-decoration: none;
     color: inherit;
