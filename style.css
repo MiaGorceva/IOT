@@ -8003,6 +8003,12 @@ select.text-input {
     }
 }
 
+@media (max-width: 900px) {
+    .footer-02--center{
+        display: none;
+    }
+}
+
 .form__input:first-child+.form__button {
     margin-left: 0
 }
