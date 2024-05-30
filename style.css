@@ -8554,8 +8554,8 @@ select.text-input {
 
 .social-buttons__icon {
     vertical-align: middle;
-    width: 18px;
-    max-height: 18px
+    width: 36px;
+    max-height: 36px
 }
 
 .nav-02 {
@@ -8692,7 +8692,7 @@ select.text-input {
 
 .nav-02__logo_img {
     margin-right: 5px;
-    backdrop-filter: blur(5px);
+    background-color: white;
 }
 
 .nav-02__logo_text {
