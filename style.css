@@ -10817,7 +10817,8 @@ select.text-input {
 
 .header-27__buttons {
     padding: 3%;
-    backdrop-filter: brightness(1.3)
+    background-color: white;
+    opacity: 0.7;
 }
 
 @media (max-width: 840px) {
