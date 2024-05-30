@@ -4068,7 +4068,8 @@ pre {
 }
 
 .content_box {
-    line-height: 1.6;
+    line-height: 125%;
+    margin-bottom: 80px
 }
 
 .content_box ul,
