@@ -6325,7 +6325,8 @@ select.text-input {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    max-width: 200px
+    max-width: 200px;
+    padding: 5%
 }
 
 .state-opened-dropdown .dropdown {
