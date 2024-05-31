@@ -4070,7 +4070,7 @@ pre {
 .content_box {
     line-height: 125%;
     margin-bottom: 80px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)}
 
 .content_box ul,
@@ -10825,7 +10825,9 @@ select.text-input {
     padding: 3%;
     background-color: white;
     opacity: 0.8;
-    margin-bottom: 80px
+    margin-bottom: 80px;
+    border-radius: 15px;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
 }
 
 @media (max-width: 840px) {
