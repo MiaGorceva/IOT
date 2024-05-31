@@ -8499,7 +8499,8 @@ select.text-input {
     opacity: 0.9;
     max-width: 100%;
     text-align: center;
-    line-height: 1.6
+    line-height: 1.6;
+    box-shadow: none
 }
 
 @media (max-width: 500px) {
@@ -13243,9 +13244,6 @@ select.text-input {
     }
 }
 
-.title-box__text .content_box {
-    box-shadow: none;
-}
 
 @media (max-width: 600px) {
     .slider-07 .slider__arrow {
