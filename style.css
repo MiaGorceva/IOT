@@ -4224,7 +4224,8 @@ pre {
 }
 
 .content_box ul li {
-    position: relative
+    position: relative;
+    margin-bottom: 3%;
 }
 
 .leftStyle ul {
