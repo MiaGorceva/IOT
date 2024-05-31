@@ -10821,6 +10821,7 @@ select.text-input {
     padding: 3%;
     background-color: white;
     opacity: 0.7;
+    margin-bottom: 80px
 }
 
 @media (max-width: 840px) {
