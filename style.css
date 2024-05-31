@@ -6364,7 +6364,9 @@ select.text-input {
 .dropdown__item {
     transform: translateY(25px);
     opacity: 50%;
-    transition: opacity 0.2s ease, transform 0.2s ease
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
+    padding: 5%
 }
 
 .dropdown__item:nth-child(1) {
