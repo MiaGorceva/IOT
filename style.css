@@ -13250,7 +13250,7 @@ select.text-input {
 }
 
 @media (max-width: 900px) {
-    .footer-02__text footer-02__link{
+    .footer-02__link{
         display: none;
     }
     
