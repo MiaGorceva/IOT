@@ -4069,8 +4069,9 @@ pre {
 
 .content_box {
     line-height: 125%;
-    margin-bottom: 80px
-}
+    margin-bottom: 80px;
+    border-radius: 20px;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)}
 
 .content_box ul,
 .content_box ol {
