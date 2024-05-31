@@ -13243,6 +13243,10 @@ select.text-input {
     }
 }
 
+.title-box__text .content_box {
+    box-shadow: none;
+}
+
 @media (max-width: 600px) {
     .slider-07 .slider__arrow {
       /*  display: none*/
