@@ -6349,7 +6349,10 @@ select.text-input {
     list-style: none;
     max-height: 70vh;
     overflow: auto;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
+    padding: 3%
 }
 
 .body--mobile .dropdown__list {
@@ -6363,7 +6366,7 @@ select.text-input {
 }
 
 .dropdown__item:nth-child(1) {
-    transition-delay: 60ms
+   /* transition-delay: 60ms*/
 }
 
 .dropdown__item:nth-child(2) {
