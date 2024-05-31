@@ -7898,7 +7898,8 @@ select.text-input {
 }
 
 .form .cta_bottom_info {
-    margin-top: 10px
+    margin-top: 10px;
+    margin-bottom: 0
 }
 
 .form.form--centered-button .cta_bottom_info {
