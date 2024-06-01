@@ -4237,8 +4237,10 @@ pre {
 }
 
 .leftStyle ul li {
-    justify-content: flex-end;
-    align-items: center;
+    text-align: -webkit-right;
+    padding-right: 8%;
+    text-indent: -2.8em;
+    padding-left: 0px;
 }
 
 .leftStyle ul li::after{
