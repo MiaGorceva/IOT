@@ -4239,8 +4239,6 @@ pre {
 .leftStyle ul li {
     text-align: -webkit-right;
     padding-right: 8%;
-    text-indent: -2.8em;
-    padding-left: 0px;
 }
 
 .leftStyle ul li::after{
