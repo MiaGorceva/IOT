@@ -6340,7 +6340,7 @@ select.text-input {
 
 .dropdown::before {
     content: "";
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     left: 0;
     bottom: 0;
