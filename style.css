@@ -4238,7 +4238,7 @@ pre {
 
 .leftStyle ul li {
     text-align: -webkit-right;
-    padding-right: 14%;
+    padding-right: 4em;
     padding-left: 0;
 }
 
@@ -4318,7 +4318,6 @@ pre {
     margin-top: 2em;
     line-height: 1.6;
     font-size: 20px;
-    margin-left: 8%;
 }
 
 .content_box iframe {
