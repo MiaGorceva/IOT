@@ -3785,6 +3785,7 @@ pre {
     font-size: 15px;
     overflow: hidden;
     text-align: left;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
 }
 
 .userName_v0vTF{
@@ -15770,7 +15771,9 @@ a.posts-01__item:focus {
     border-radius: 16px;
     flex-direction: column-reverse;
     border-radius: 10px;
-    border: 1px solid #eee
+    border: 1px solid #eee;
+    background-color: white;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
 }
 
 .posts-02__item--accent {
@@ -23279,6 +23282,7 @@ html .bg-accent-color .features-09__item--new,
     flex-wrap: wrap;
     margin-top: 70px;
     width: 100%;
+    
 }
 
 @media (max-width: 750px) {
@@ -23362,7 +23366,8 @@ html .bg-accent-color .features-09__item--new,
     max-width: 230px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.6
+    line-height: 1.6;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
 }
 
 .steps-03__text .color-main{
