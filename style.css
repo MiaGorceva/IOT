@@ -15848,7 +15848,8 @@ a.posts-01__item:focus {
     height: 80px;
     width: 80px;
     border-radius: 10px;
-    overflow: hidden
+    overflow: hidden;
+    float:inline-start
 }
 
 @media (max-width: 760px) {
