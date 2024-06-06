@@ -7853,7 +7853,9 @@ select.text-input {
 }
 
 .feature__button_box {
-    margin-top: 15px
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .feature__button_box .button--empty {
