@@ -15844,12 +15844,18 @@ a.posts-01__item:focus {
     font-size: 14px
 }
 
+.posts-02__title{
+    margin-bottom: 1.0em;
+    line-height: 170%;
+}
+
 .posts-02__img_box {
     height: 80px;
     width: 80px;
     border-radius: 10px;
     overflow: hidden;
-    float:inline-start
+    float:inline-start;
+    padding-right: 20px;
 }
 
 @media (max-width: 760px) {
