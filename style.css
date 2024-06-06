@@ -13392,8 +13392,8 @@ select.text-input {
 
 .slider-07__feature .feature__icon {
     position: absolute;
-    top: 0;
-    left: 0
+    top: -9px;
+    left: 0;
 }
 
 @media (max-width: 950px) {
