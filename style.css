@@ -10887,10 +10887,8 @@ select.text-input {
 }
 
 .header-27__emoji {
-    height: 50px;
     float: inline-start;
-    margin-right: 20px;
-    width: 50px
+    display: flex;
 }
 
 .header-27__emoji img,
