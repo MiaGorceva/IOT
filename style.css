@@ -15849,7 +15849,7 @@ a.posts-01__item:focus {
     overflow: hidden;
     float:inline-start;
     /*padding-right: 20px;*/
-    margin-right: 1px;
+    margin-right: 7px;
 }
 
 @media (max-width: 760px) {
