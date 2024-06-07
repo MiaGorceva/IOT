@@ -10866,6 +10866,9 @@ select.text-input {
 .header-27__link{
     display: flex;
     justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: auto;
 }
 
 .header-27__title {
