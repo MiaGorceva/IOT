@@ -13176,7 +13176,8 @@ select.text-input {
 .slider-05__feature {
     margin-bottom: 40px;
     border-radius: 10px;
-    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
+    padding-right: 40px;
 }
 
 .slider-05__feature:last-child {
@@ -15765,7 +15766,7 @@ a.posts-01__item:focus {
 
 .posts-02__item {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-wrap: nowrap;
     width: calc(24% - 10px);
