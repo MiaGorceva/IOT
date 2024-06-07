@@ -15799,7 +15799,7 @@ a.posts-01__item:focus {
 }
 
 .posts-02__item:nth-child(2n) {
-    margin-right: 0
+  /*  margin-right: 0*/
 }
 
 .posts-02__text {
