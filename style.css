@@ -23369,7 +23369,8 @@ html .bg-accent-color .features-09__item--new,
 
 .steps-03__text {
     margin-top: 15px;
-    max-width: 230px;
+    padding: 5%;
+    max-width: 280px;
     margin-left: auto;
     margin-right: auto;
     line-height: 1.6;
