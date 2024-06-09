@@ -13142,7 +13142,7 @@ select.text-input {
     margin: 0;
     list-style: none;
     padding-left: 60px;
-    width: 50%;
+    width: 60%;
 }
 
 @media (max-width: 1370px) {
