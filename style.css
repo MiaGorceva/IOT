@@ -3624,7 +3624,8 @@ textarea:focus {
 
 .container--max {
     width: 100%;
-    max-width: 95%
+    max-width: 95%;
+    margin-right: 0;
 }
 
 
