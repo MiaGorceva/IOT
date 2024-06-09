@@ -19342,10 +19342,9 @@ a.posts-01__item:focus {
 }
 
 .footer-02--center{
-    align-items: center;
+    align-items: flex-end;
     display: flex;
-    flex-direction: row;
-    align-content: flex-end;
+    flex-direction: column;
     justify-content: flex-end;
 }
 
