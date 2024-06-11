@@ -19363,13 +19363,22 @@ a.posts-01__item:focus {
 @media (max-width: 750px) {
     .footer-02__wrapper .nav-02__link {
         display: flex;
-        flex-wrap: nowrap
+        flex-wrap: nowrap;
+        flex-direction: column;
     }
 }
 
+
+@media (min-width: 750px) {
+    .footer-02__mobile {
+        display: hidden;
+    }
+}
+
+
 @media (max-width: 750px) {
-    .footer-02__wrapper .nav-02__link {
-       flex-direction: column;
+    .footer-02__wrapper  {
+        display: hidden;
     }
 }
 
