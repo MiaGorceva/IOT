@@ -23126,7 +23126,7 @@ html .bg-accent-color .features-09__item--new,
     margin: 0;
     list-style: none;
     position: relative;
-    margin-top: 70px
+   /* margin-top: 70px*/
 }
 
 .steps-01__list:before {
