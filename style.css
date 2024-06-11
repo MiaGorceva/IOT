@@ -7841,9 +7841,10 @@ select.text-input {
 }
 
 .feature__button_box {
-    margin-top: 15px;
+    margin-top: auto;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 0
 }
 
 .feature__button_box .button--empty {
@@ -15774,7 +15775,7 @@ a.posts-01__item:focus {
     margin-right: 8px;
     margin-left: 8px;
     border-radius: 16px;
-    flex-direction: column-reverse;
+    flex-direction: column;
     border-radius: 10px;
     border: 1px solid #eee;
     background-color: white;
