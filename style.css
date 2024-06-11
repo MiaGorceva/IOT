@@ -19375,11 +19375,10 @@ a.posts-01__item:focus {
     }
 }
 
-@media (max-width: 750px){
+/*@media (max-width: 750px){*/
     .footer-02__mobile .nav-02__logo{
     display:flex;
     }
-}
 
 
 @media (max-width: 750px) {
