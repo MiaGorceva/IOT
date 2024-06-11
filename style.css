@@ -8000,7 +8000,7 @@ select.text-input {
 
 @media (max-width: 500px) {
     .footer-02__mobile{
-        visibility: hidden;
+      /*  visibility: hidden;*/
     }
 }
 
