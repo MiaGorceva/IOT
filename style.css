@@ -19378,6 +19378,7 @@ a.posts-01__item:focus {
 @media (max-width: 750px){
     .footer-02 .footer-02__mobile {
     display:flex;
+    flex-direction: row;
     }
 }
 
