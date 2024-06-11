@@ -19376,7 +19376,7 @@ a.posts-01__item:focus {
 }
 
 @media (max-width: 750px){
-    .footer-02__wrapper .footer-02__mobile{
+    .footer-02__wrapper .nav-02__logo{
     display:flex;
     }
 }
