@@ -19375,9 +19375,10 @@ a.posts-01__item:focus {
     }
 }
 
-.footer-02__mobile{
-    display: flex;
-    flex-direction: row;
+@media (max-width: 750px){
+    .footer-02__wrapper .footer-02__mobile{
+    display:flex;
+    }
 }
 
 
