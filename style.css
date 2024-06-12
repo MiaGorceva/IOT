@@ -23432,7 +23432,7 @@ html .bg-accent-color .features-09__item--new,
         left: 0;
         right: 0;
         margin: auto;
-        top: auto;
+        top: 55%;
         transform: translateY(50%) rotate(90deg)
     }
 }
