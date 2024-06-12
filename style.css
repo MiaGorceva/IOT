@@ -4230,6 +4230,14 @@ pre {
     padding-left: 0;
 }
 
+@media (max-width:760px){
+    .leftStyle .steps-01__text{
+        text-align: justify;
+        padding-left: 1.8 em;
+        padding-right: 0;
+    }
+}
+
 .leftStyle ul li::after{
     content: "";
     height: 6px;
