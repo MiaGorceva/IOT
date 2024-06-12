@@ -4230,6 +4230,11 @@ pre {
     padding-left: 0;
 }
 
+@media (max-width:500px){
+    .nav-02__logo_text {
+        display: none;
+    }
+}
 @media (max-width:760px){
     .leftStyle ul li{
         text-align: justify;
