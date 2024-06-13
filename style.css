@@ -3776,9 +3776,16 @@ pre {
     background-color: #f6f6f6;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
     border-radius: 10px;
+}
+
+.special_box{
+    line-height: 200%;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 5%;
 }
 
 .root_vgAo0{
