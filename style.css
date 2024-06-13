@@ -15294,6 +15294,8 @@ select.text-input {
     }
 }
 
+
+
 @media (max-width: 1080px) {
     .pricing-05__cards_desktop--3 {
         display: none
@@ -19308,6 +19310,17 @@ a.posts-01__item:focus {
     font-weight: 400;
     color: white;
     opacity: 0.6
+}
+
+.footer-02__wrapper--docs{
+    justify-content: flex-end; 
+    align-items: flex-end
+}
+
+@media (max-width: 1000px){
+    .footer-02__wrapper--docs{
+        display: none;
+    }
 }
 
 .footer-02 {
