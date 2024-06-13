@@ -8659,6 +8659,8 @@ select.text-input {
 .nav-02__logo {
     position: relative;
     z-index: 50;
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 900px) {
@@ -19321,14 +19323,20 @@ a.posts-01__item:focus {
 }
 
 .footer-02__wrapper--docs{
-    justify-content: flex-end; 
-    align-items: flex-end
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (max-width: 1000px){
     .footer-02__wrapper--docs{
         display: none;
     }
+}
+
+.footer-02__wrapper--center{
+    display: flex;
 }
 
 .footer-02 {
@@ -19373,8 +19381,8 @@ a.posts-01__item:focus {
 .footer-02__wrapper {
     flex: 1 0 0;
     display: flex;
-    align-items: flex-start;
-    /* align-content: flex-start; */
+    align-items: stretch;
+    align-content: space-between;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
