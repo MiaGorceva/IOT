@@ -4342,7 +4342,7 @@ pre {
 }
 
 .content_box p:first-child {
-    margin-top: 0
+   /* margin-top: 0*/
 }
 
 .content_box p:last-child {
