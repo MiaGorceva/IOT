@@ -15338,7 +15338,7 @@ select.text-input {
     }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1300px) {
     .pricing-05__cards_mobile--3 {
         display: flex
     }
