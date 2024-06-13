@@ -3744,7 +3744,8 @@ pre {
     display: flex;
     margin-left: -30px;
     width: auto;
-    flex-direction: row
+    flex-direction: row;
+    border-radius: 10px;
 }
 
 @media (max-width: 700px){
