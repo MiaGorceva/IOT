@@ -3772,10 +3772,13 @@ pre {
 
 .item_gS5ww{
     border: 1px solid #d9e1ec;
-    margin-bottom: auto;
-    margin-top: auto;
     padding: 20px;
     background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .root_vgAo0{
