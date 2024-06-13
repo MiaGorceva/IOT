@@ -3782,10 +3782,11 @@ pre {
 }
 
 .special_box{
-    line-height: 200%;
+    line-height: 200%!important;
     font-size: 24px;
     font-weight: 500;
     padding: 5%;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
 }
 
 .root_vgAo0{
