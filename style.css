@@ -10933,6 +10933,7 @@ select.text-input {
 
 .header-27__emoji img,
 .header-27__emoji svg {
+    max-width: 50px;
     max-height: 50px
 }
 
