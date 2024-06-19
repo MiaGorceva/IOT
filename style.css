@@ -850,6 +850,7 @@ pre {
     justify-content: space-between;
     height: 100%;
     border-radius: 10px;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7)
 }
 
 .special_box{
@@ -12466,7 +12467,7 @@ a.posts-01__item:focus {
     border-radius: 10px;
     border: 1px solid #eee;
     background-color: white;
-    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7);
 }
 
 .posts-02__item--accent {
