@@ -4359,7 +4359,8 @@ pre {
 }
 
 .content_box a {
-    text-decoration: underline
+    text-decoration: underline;
+    color: #54c54a!important;
 }
 
 .style-yellow-1:not(.custom-colors-enabled) .content_box a {
@@ -20653,7 +20654,7 @@ body .text--04__big_text * {
 }
 
 .faq-01__answer_text {
-    margin-bottom: 20px;
+    padding: 1%;
     color: rgba(48, 48, 48, 0.85)
 }
 
