@@ -5164,7 +5164,10 @@ select.text-input {
 .title-box--center {
     margin-left: auto;
     margin-right: auto;
-    text-align: center
+    text-align: center;
+    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 1%;
 }
 
 .title-box--center .title-box__text {
