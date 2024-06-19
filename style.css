@@ -516,13 +516,13 @@
 .bg-accent-color .style-green-2 .pricing-02__card_box--accent,
 .style-green-2 .bg-accent-color .pricing-04__card--accent,
 .bg-accent-color .style-green-2 .pricing-04__card--accent {
-    border-color: #F90473
+    border-color: #54c54a
 }
 
 .style-green-2 .color-alt,
 .style-green-2 .comps .button--alt-accent-outline,
 .comps .style-green-2 .button--alt-accent-outline {
-    color: #F90473
+    color: #54c54a
 }
 
 .style-green-2 .bg-alt,
@@ -530,13 +530,13 @@
 .comps .style-green-2 .button--alt-accent-bg,
 .style-green-2 .bg-accent-color .slick-dots li.slick-active button,
 .bg-accent-color .slick-dots li.slick-active .style-green-2 button {
-    background-color: #F90473
+    background-color: #54c54a
 }
 
 .style-green-2 .bg-alt-hover:hover,
 .style-green-2 .comps .button--alt-accent-bg:hover,
 .comps .style-green-2 .button--alt-accent-bg:hover {
-    background-color: #e00467
+    background-color: #54c54a
 }
 
 .style-green-2 .fill-alt .icon svg *,
@@ -545,14 +545,14 @@
 .style-green-2 .fill-alt .button__system_icon svg *,
 .style-green-2 .comps .button--alt-accent-outline .button__system_icon svg *,
 .comps .style-green-2 .button--alt-accent-outline .button__system_icon svg * {
-    fill: #F90473
+    fill: #54c54a
 }
 
 .style-green-2 .fill-alt-hover:hover .icon svg *,
 .style-green-2 .feature__link:hover .icon svg *,
 .style-green-2 .fill-alt-hover:hover .button__system_icon svg *,
 .style-green-2 .feature__link:hover .button__system_icon svg * {
-    fill: #F90473
+    fill: #54c54a
 }
 
 .bg-light-color .fill-bg-light,
