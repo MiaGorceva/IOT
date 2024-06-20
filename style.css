@@ -4533,7 +4533,7 @@ select.text-input {
     margin-top: auto;
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 0
+    margin-bottom: 5%
 }
 
 .feature__button_box .button--empty {
@@ -19906,7 +19906,7 @@ html .bg-accent-color .features-09__item--new,
 
 .steps-01__text_box {
     width: 50%;
-    padding-right: 40px;
+   /* padding-right: 40px;*/
     text-align: right;
     border-radius: 10px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7);
@@ -19922,7 +19922,7 @@ html .bg-accent-color .features-09__item--new,
 }
 
 .steps-01__heading {
-    margin-top: 0
+   /* margin-top: 0*/
 }
 
 .steps-01__img_box {
