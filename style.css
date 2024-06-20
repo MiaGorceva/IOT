@@ -11704,7 +11704,7 @@ select.text-input {
 }
 
 .pricing-05__cards_container--4 .pricing-05__card_box {
-    width: 180px
+  /*  width: 180px*/
 }
 
 .pricing-05__cards_container--5 {
@@ -11967,7 +11967,7 @@ select.text-input {
 
 
 
-@media (max-width: 1080px) {
+@media (max-width: 900px) {
     .pricing-05__cards_desktop--3 {
         display: none
     }
@@ -12011,7 +12011,7 @@ select.text-input {
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
     .pricing-05__cards_mobile--3 {
         display: flex
     }
