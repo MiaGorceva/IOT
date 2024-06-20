@@ -5184,7 +5184,8 @@ select.text-input {
     text-align: center;
     line-height: 1.6;
     box-shadow: none;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    font-size: 1.2em
 }
 
 @media (max-width: 500px) {
