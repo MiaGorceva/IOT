@@ -5151,7 +5151,7 @@ select.text-input {
 }
 
 .title-box {
-    margin-bottom: 50px;
+   /* margin-bottom: 50px;*/
     max-width: 56%;
     display: flex;
     flex-direction: column;
@@ -5183,7 +5183,8 @@ select.text-input {
     max-width: 100%;
     text-align: center;
     line-height: 1.6;
-    box-shadow: none
+    box-shadow: none;
+    margin-bottom: 50px
 }
 
 @media (max-width: 500px) {
