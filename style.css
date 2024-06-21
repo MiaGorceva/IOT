@@ -887,6 +887,12 @@ pre {
     margin: 1%
 }
 
+@media (max-width: 900px){
+    .user_mnspV{
+        flex-direction: column;
+    }
+}
+
 .app_dg9_F{
    /* background: #fff;*/
     border: 1px solid #d9e1ec;
@@ -4617,7 +4623,7 @@ select.text-input {
 }
 
 .marker{
-    text-align: justify;
+   /* text-align: justify;*/
     text-indent: -1.8em;
     padding-left: 1.8em;
     margin-left: 8%
