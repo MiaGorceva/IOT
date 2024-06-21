@@ -5309,6 +5309,7 @@ select.text-input {
 }
 
 .nav-02__box {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -7533,7 +7534,7 @@ select.text-input {
     text-align: justify;
     display: flex;
     flex: 1 0 0;
-    align-items: stretch;
+  /*  align-items: stretch;*/
     justify-content: space-evenly;
 }
 
