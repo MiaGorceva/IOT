@@ -20067,7 +20067,10 @@ html .bg-accent-color .features-09__item--new,
 
 @media (max-width: 750px) {
     .steps-03__img_box {
-        position: static
+        position: static;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-around
     }
 }
 
