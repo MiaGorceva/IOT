@@ -20130,11 +20130,10 @@ html .bg-accent-color .features-09__item--new,
 }
 
 .triangle {
-    width: 0;
-    height: 0;
-    border-left: 20px solid white;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+    margin-left: 10px;
+    border-left: 50px solid #54a54e;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
 }
 
 .play-button:hover {
