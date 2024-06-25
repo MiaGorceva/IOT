@@ -20106,6 +20106,31 @@ html .bg-accent-color .features-09__item--new,
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1)
 }
 
+.youtube-placeholder {
+    position: relative;
+   /* width: 560px; /* adjust as needed */
+  /*  height: 315px; /* adjust as needed */
+    cursor: pointer;
+}
+
+.youtube-placeholder img {
+    width: 100%;
+    height: 100%;
+}
+
+.youtube-placeholder .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 .steps-03__text .color-main{
     color:#041ddf;
 }
