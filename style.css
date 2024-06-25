@@ -22794,8 +22794,8 @@ body .featherlight .featherlight-content {
 .graphics-video:not(.default-graphics-video) .slider-07__item,
 .graphics-HTML:not(.default-graphics-HTML) .slider-05__item,
 .graphics-HTML:not(.default-graphics-HTML) .slider-07__item {
-    padding-left: 100px;
-    padding-right: 100px
+   /* padding-left: 100px;
+    padding-right: 100px*/
 }
 
 .graphics-video:not(.default-graphics-video) .slider-05__item_editor,
