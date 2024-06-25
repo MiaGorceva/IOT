@@ -20118,6 +20118,29 @@ html .bg-accent-color .features-09__item--new,
     height: 100%;
 }
 
+.play-button {
+    width: 100px;
+    height: 100px;
+    background-color: #54e54a; /* Green color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.play-button:hover {
+    background-color: #48c441; /* Slightly darker green on hover */
+}
+
 .youtube-placeholder .play-button {
     position: absolute;
     top: 50%;
