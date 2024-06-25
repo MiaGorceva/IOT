@@ -20121,12 +20121,11 @@ html .bg-accent-color .features-09__item--new,
 .play-button {
     width: 100px;
     height: 100px;
-    background-color: #54e54a; /* Green color */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
 
 .triangle {
