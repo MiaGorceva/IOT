@@ -9963,7 +9963,8 @@ select.text-input {
 }
 
 .flex-footer{
-    display:flex
+    display:flex;
+    max-width: 1500px;
 }
 
 .slider-07__wrapper {
