@@ -1389,7 +1389,7 @@ pre {
 .content_box blockquote,
 .content_box code {
     margin-bottom: 2em;
-    margin-top: 2em;
+   /* margin-top: 2em;*/
     line-height: 1.6;
     font-size: 20px;
 }
@@ -9755,7 +9755,7 @@ select.text-input {
 .slider-05__wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: nowrap;
     flex-direction: row
 }
