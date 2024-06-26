@@ -688,6 +688,7 @@ textarea:focus {
     flex-direction: column;
     text-align: justify;
     align-items: center;
+    max-width: 1500px;
 }
 
 .container:after {
