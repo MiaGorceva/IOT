@@ -852,7 +852,7 @@ pre {
     justify-content: space-between;
     height: 100%;
     border-radius: 10px;
-    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7)
+   /* box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7)*/
 }
 
 .special_box{
@@ -12547,7 +12547,8 @@ a.posts-01__item:focus {
 .posts-02__title{
     margin-bottom: 1.0em;
     line-height: 170%;
-    margin-top: 0.5em
+    margin-top: 0.5em;
+    text-align: left;
 }
 
 .posts-02__img_box {
