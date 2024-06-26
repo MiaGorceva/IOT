@@ -4469,7 +4469,7 @@ select.text-input {
     margin-top: 0;
     margin-bottom: 15px;
     line-height: 100%;
-    padding-top: 15px;
+   /* padding-top: 15px;*/
 }
 
 .feature__title_text {
