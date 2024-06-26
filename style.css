@@ -20175,29 +20175,6 @@ html .bg-accent-color .features-09__item--new,
     position: absolute;
 }
 
-.triangle {
-    margin-left: 10px;
-    border-left: 50px solid #54a54e;
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-}
-
-.play-button:hover {
-    background-color: #48c441; /* Slightly darker green on hover */
-}
-
-.youtube-placeholder .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: none;
-    color: white;
-    font-size: 24px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
 .steps-03__text .color-main{
     color:#041ddf;
 }
