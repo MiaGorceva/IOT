@@ -11713,7 +11713,7 @@ select.text-input {
 }
 
 .pricing-05__cards_container--4 .pricing-05__card_box {
-  /*  width: 180px*/
+    width: 180px;
 }
 
 .pricing-05__cards_container--5 {
@@ -11834,7 +11834,7 @@ select.text-input {
     text-align: center;
     border-radius: 10px 10px 0 0;
     vertical-align: baseline;
-    width: 100%;
+   /* width: 100%;*/
 }
 
 .pricing-05__item_icon {
@@ -12481,7 +12481,6 @@ a.posts-01__item:focus {
     border-radius: 10px;
     border: 1px solid #eee;
     background-color: white;
-    box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7);
 }
 
 .posts-02__item--accent {
