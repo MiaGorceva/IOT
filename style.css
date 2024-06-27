@@ -864,6 +864,14 @@ pre {
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7)!important
 }
 
+.bottomAnchor_EgAwO{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: auto;
+
+}
+
 .root_vgAo0{
   /*  border: 1px solid #f2f2f2;*/
     color: #333;
@@ -887,7 +895,8 @@ pre {
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    margin: 1%
+    margin: 1%;
+    width: 100%;
 }
 
 @media (max-width: 900px){
