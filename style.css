@@ -619,7 +619,8 @@ body.state-fixed-body {
 .comps p {
     margin-bottom: 1em;
     margin-top: 1em;
-    line-height: 1.6
+    line-height: 1.6;
+    font-weight: 500
 }
 
 [tabindex="-1"]:focus {
