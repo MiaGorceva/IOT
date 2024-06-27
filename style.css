@@ -5189,7 +5189,7 @@ select.text-input {
 
 .title-box__text {
     opacity: 0.9;
-    max-width: 100%;
+    max-width: 850px;
     text-align: center;
     line-height: 1.6;
     box-shadow: none;
