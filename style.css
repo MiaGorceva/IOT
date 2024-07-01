@@ -1176,6 +1176,12 @@ pre {
     width: 45%
 }
 
+@media (max-width: 1000px) {
+    .white-bg{
+        width: 75%;
+    }
+}
+
 .content_box ul,
 .content_box ol {
     padding-left: 1em
@@ -16089,11 +16095,13 @@ a.posts-01__item:focus {
     align-items: center;
 }
 
-@media (max-width: 500px){
+
+
+@media (max-width: 1000px){
     .footer-02--right{
         flex-direction: row;
         align-items: self-start;
-        align-content: space-between
+        align-content: flex-end
     }
 }
 
