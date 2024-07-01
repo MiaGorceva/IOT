@@ -7534,7 +7534,7 @@ select.text-input {
     text-align: center;
 }
 
-@media (max-width:1300) {
+@media (max-width:1300px) {
     .header-27__buttons{
         width: auto;
     }
