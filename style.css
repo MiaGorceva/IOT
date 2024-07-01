@@ -12558,10 +12558,11 @@ a.posts-01__item:focus {
 }
 
 .posts-02__title{
-    margin-bottom: 1.0em;
-    line-height: 170%;
-    margin-top: 0.5em;
+    line-height: 125%;
+    margin-top: 0;
     text-align: left;
+    min-height: 80px;
+    align-content: center;
 }
 
 .posts-02__img_box {
