@@ -12507,6 +12507,12 @@ a.posts-01__item:focus {
     background-color: white;
 }
 
+@media (max-width: 1100px){
+    .posts-02__item{
+        width: calc(24% + 160px)!important;
+    }
+}
+
 .posts-02__item--accent {
     background-color: white;
     border-color: transparent
