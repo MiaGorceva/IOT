@@ -7536,7 +7536,7 @@ select.text-input {
 
 @media (max-width:1300px) {
     .header-27__buttons{
-        width: auto;
+        width: auto!important;
     }
 }
 .header-27__buttons {
