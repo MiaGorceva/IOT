@@ -4650,6 +4650,12 @@ select.text-input {
     margin-left: 8%
 }
 
+@media (max-width: 1100px) {
+    .marker{
+        padding-left: 0;
+    }
+}
+
 .form__textarea {
     position: relative;
     width: 100%;
@@ -19959,11 +19965,16 @@ html .bg-accent-color .features-09__item--new,
 
 @media (max-width: 760px) {
     .steps-01__text_box {
-        padding: 0 !important;
         width: 100%;
         max-width: 700px;
         text-align: left;
         margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .steps-01__text_box {
+        padding: 0 !important;
     }
 }
 
