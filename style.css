@@ -19961,8 +19961,9 @@ html .bg-accent-color .features-09__item--new,
     .steps-01__text_box {
         padding: 0 !important;
         width: 100%;
-        max-width: 400px;
-        text-align: left
+        max-width: 700px;
+        text-align: left;
+        margin-bottom: 30px;
     }
 }
 
