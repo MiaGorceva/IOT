@@ -706,7 +706,7 @@ textarea:focus {
 .container--max {
     width: 100%;
     max-width: 95%;
-    margin-right: 0;
+  /*  margin-right: 0;*/
 }
 
 
@@ -20051,9 +20051,9 @@ html .bg-accent-color .features-09__item--new,
 
 .steps-03__list {
     padding-right: 3%;
+    padding-left: 3%;
     margin: 0;
     list-style: none;
-    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
