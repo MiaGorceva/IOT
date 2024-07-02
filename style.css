@@ -1356,7 +1356,7 @@ pre {
         display: none;
     }
 }
-@media (max-width:760px){
+@media (max-width:900px){
     .leftStyle ul li{
         text-align: justify;
         padding-left: 1.8em;
