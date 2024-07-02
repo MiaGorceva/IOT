@@ -1623,6 +1623,14 @@ body .page-component__bg_overlay_box {
     background-image: url('upload/the most flexible IoT platform ever.webp');
 }
 
+@media (max-width:700px){
+    .bg-dark_gray-color{
+        background: lightslategrey;
+        opacity: 0.7;
+    }
+
+}
+
 .style-green-1 .bg-accent-color .page-component__bg_overlay_box:not(.page-component__bg_overlay_box--always-white),
 .style-green-1 .bg-accent-color .background-color-picker__circle,
 .style-green-1 .bg-accent-color .footer-04,
