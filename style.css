@@ -4731,7 +4731,7 @@ select.text-input {
 
 @media (max-width: 500px) {
     .footer-02__mobile{
-      /*  visibility: hidden;*/
+        justify-content: center !important;
     }
 }
 
@@ -20120,6 +20120,7 @@ html .bg-accent-color .features-09__item--new,
     .steps-03__item {
         float: inline-start;
         padding-left: 15px;
+        width: 100%;
     }
 
     .steps-03__item:last-child {
