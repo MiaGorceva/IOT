@@ -4647,8 +4647,6 @@ select.text-input {
 @media (max-width: 600px) {
     .form__inputs {
         display: block; 
-        max-width: 470px;
-        padding-right: 20px;
     }
 }
 
