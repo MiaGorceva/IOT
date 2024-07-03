@@ -9909,7 +9909,9 @@ select.text-input {
 
 @media (max-width: 600px) {
     .slider-05__text_container {
-        margin-top: 90px
+        margin-top: 90px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
