@@ -9985,18 +9985,12 @@ select.text-input {
     }
 }
 
-@media (max-width: 1275px) {
+@media (max-width: 700px) {
     .slider-07 .slider__arrow {
-        display: block
+        display: none;
     }
 }
 
-
-@media (max-width: 600px) {
-    .slider-07 .slider__arrow {
-      /*  display: none*/
-    }
-}
 
 @media (max-width: 900px) {
     .footer-02__link{
