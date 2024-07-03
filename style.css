@@ -20097,7 +20097,8 @@ html .bg-accent-color .features-09__item--new,
 
 @media (max-width: 750px) {
     .steps-03__list {
-        flex-direction: column
+        flex-direction: column;
+        margin-top: 0;
     }
 }
 
@@ -20123,9 +20124,8 @@ html .bg-accent-color .features-09__item--new,
 
 @media (max-width: 750px) {
     .steps-03__item {
-        position: relative;
-        width: 100%;
-        margin-bottom: 90px
+        float: inline-start;
+        padding-left: 15px;
     }
 
     .steps-03__item:last-child {
