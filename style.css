@@ -5117,6 +5117,13 @@ select.text-input {
     left: 0
 }
 
+@media (max-width:900px) {
+    .slider__arrow{
+        display: none ;
+    }
+    
+}
+
 .slider__arrow--next {
     right: 0
 }
@@ -5146,7 +5153,7 @@ select.text-input {
     margin: 0;
     list-style: none;
     position: absolute;
-    bottom: -60px;
+   /* bottom: -60px;*/
     left: 0;
     right: 0;
     margin: auto
