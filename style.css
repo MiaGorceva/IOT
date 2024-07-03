@@ -12590,7 +12590,8 @@ a.posts-01__item:focus {
 .posts-02__info {
     line-height: 1.6;
     opacity: 0.8;
-    font-size: 14px
+    font-size: 14px;
+    text-align: justify;
 }
 
 .posts-02__title{
