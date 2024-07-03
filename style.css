@@ -811,7 +811,8 @@ pre {
 .masonryColumn_QPJXT{
     background-clip: padding-box;
     padding-left: 30px;
-    width: 100%
+    width: 100%;
+    padding-bottom: 30px;
 }
 
 .masonry_ZY9Sc{
@@ -5349,7 +5350,7 @@ select.text-input {
 }
 
 .nav-02__box {
-    width: 100%;
+   /* width: 100%;*/
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -12567,7 +12568,8 @@ a.posts-01__item:focus {
         padding-right: 0;
         max-width: 300px;
         margin-right: auto;
-        margin-left: auto
+        margin-left: auto;
+        ext-align: justify
     }
 }
 
@@ -17278,6 +17280,13 @@ body .text--04__big_text * {
     list-style: none;
     margin-top: 30px;
     max-width: 70%;
+}
+
+@media (max-width: 900px) {
+    .faq-01__list{
+        max-width: 100%;
+    }
+    
 }
 
 .faq-01__question {
