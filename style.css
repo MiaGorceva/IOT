@@ -20106,8 +20106,6 @@ html .bg-accent-color .features-09__item--new,
 
 @media (max-width: 750px) {
     .steps-03__item {
-        float: inline-start;
-        padding-left: 15px;
         width: 100%;
     }
 
@@ -20129,10 +20127,8 @@ html .bg-accent-color .features-09__item--new,
 
 @media (max-width: 750px) {
     .steps-03__img_box {
-        position: static;
-        padding-left: 0;
-        display: flex;
-        justify-content: space-around
+        padding-right: 15px;
+        float: inline-start;
     }
 }
 
