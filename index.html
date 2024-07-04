@@ -1310,7 +1310,9 @@
 						const referenceWidth = referenceElement.offsetWidth;
 						const paddingValue = (referenceWidth - 140)/2; // 10% от ширины элемента steps-03__item--1-4
 			
-						targetElement.style.paddingLeft = `${paddingValue}px`;
+						targetElements.forEach(function(element) {
+							element.style.paddingLeft = `${paddingValue}px`;
+						});
 					});
 				</script>
 			</div>
