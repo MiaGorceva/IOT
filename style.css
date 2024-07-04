@@ -5117,21 +5117,8 @@ select.text-input {
     left: 0
 }
 
-@media (max-width:900px) {
-    .slider__arrow{
-        display: none ;
-    }
-    
-}
-
 .slider__arrow--next {
     right: 0
-}
-
-@media (max-width: 1275px) {
-    .slider__arrow {
-        display: none
-    }
 }
 
 .slider__box {
