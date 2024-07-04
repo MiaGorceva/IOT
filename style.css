@@ -20271,7 +20271,7 @@ html .bg-accent-color .features-09__item--new,
 .pricing-05__card_img {
     width: 100%;
     height: auto; /* This ensures the image maintains its aspect ratio */
-    display: block;
+   /* display: block;*/
 }
 
 .steps-03__img:last-child .steps-03__icon {
