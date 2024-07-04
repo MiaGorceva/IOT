@@ -20116,13 +20116,10 @@ html .bg-accent-color .features-09__item--new,
     }
 }
 
-.steps-03__text {
-    --element-width: 100%; /* предположим, что ширина элемента 100% */
-}
 
 .steps-03__img_box {
     position: relative;
-    padding-left: calc((var(--element-width) - 140px)/2);
+    padding-left: 0;
 }
 
 .steps-03__img{

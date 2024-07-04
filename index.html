@@ -1213,6 +1213,15 @@
 				<div class="container">
 					<ul class="steps-03__list">
 						<li class="steps-03__item steps-03__item--1-4">
+							<script>
+								document.addEventListener('DOMContentLoaded', function () {
+									const element = document.querySelector('.steps-03__text');
+									const elementWidth = element.offsetWidth;
+									const paddingValue = (elementWidth - 140)/2; // 10% от ширины элемента
+						
+									element.style.padding = `${paddingValue}px`;
+								});
+							</script>
 							<div class="steps-03__img_box">
 								<img loading="lazy" alt="" data-width="1280" data-height="800"
 									class="steps-03__img  js-lightbox-single-image "
