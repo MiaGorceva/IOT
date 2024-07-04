@@ -20253,7 +20253,7 @@ html .bg-accent-color .features-09__item--new,
     fill: white
 }
 
-@media (max-width: 750px) {
+/*@media (max-width: 750px) {
     .steps-03__icon {
         left: 0;
         right: 0;
@@ -20261,6 +20261,17 @@ html .bg-accent-color .features-09__item--new,
         top: 55%;
         transform: translateY(50%) rotate(90deg)
     }
+}*/
+
+.pricing-05__card_img_box{
+        position: relative;
+        width: 50%; /* Adjust the width as needed */
+}
+
+.pricing-05__card_img {
+    width: 100%;
+    height: auto; /* This ensures the image maintains its aspect ratio */
+    display: block;
 }
 
 .steps-03__img:last-child .steps-03__icon {
