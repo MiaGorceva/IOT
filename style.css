@@ -20056,6 +20056,12 @@ html .bg-accent-color .features-09__item--new,
     max-height: 30px
 }
 
+@media (max-width:700px) {
+    .steps-03__icon {
+        display: none;
+    }
+    
+}
 
 .steps-03__list {
     padding-right: 3%;
