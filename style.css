@@ -20107,6 +20107,7 @@ html .bg-accent-color .features-09__item--new,
 @media (max-width: 750px) {
     .steps-03__item {
         width: 100%;
+        padding-bottom: 30px;
     }
 
     .steps-03__item:last-child {
@@ -20129,6 +20130,7 @@ html .bg-accent-color .features-09__item--new,
     .steps-03__img_box {
         padding-right: 15px;
         float: inline-start;
+        padding-left: 15px!important;
     }
 }
 
