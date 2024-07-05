@@ -1014,7 +1014,7 @@ pre {
 
 .white-text,
 .text-white {
-    color: white
+    color: white!important;
 }
 
 .white-text a,
