@@ -12065,6 +12065,13 @@ select.text-input {
     }
 }
 
+@media (max-width: 320px){
+    .pricing-05__cards_mobile .pricing-05__table{
+        width: 276px
+    }
+
+}
+
 .pricing-05__cards_mobile .pricing-05__table {
     max-width: 320px;
     margin: 30px 15px 0
