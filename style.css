@@ -1,6 +1,9 @@
-.custom_fonts .custom-google-fonts-enabled * {
-    font-family: 'BIZ UDPMincho', Helvetica, sans-serif;
-}
+@font-face {
+    font-family: 'BIZ UDPMincho';
+    src: url('https://fonts.gstatic.com/s/udpmincho/v9/ypvfbXOBr...woff2') format('woff2');
+    font-display: swap;
+    /* Additional properties like font-weight and font-style can be specified */
+  }
 
 .custom_fonts .custom-google-fonts-enabled h1,
 .custom_fonts .custom-google-fonts-enabled h2,
@@ -8,7 +11,7 @@
 .custom_fonts .custom-google-fonts-enabled h4,
 .custom_fonts .custom-google-fonts-enabled h5,
 .custom_fonts .custom-google-fonts-enabled h6 {
-    font-family: 'BIZ UDPMincho', Helvetica, serif;
+    font-family: 'BIZ UDPMincho';
 }
 
 .style-green-1,
