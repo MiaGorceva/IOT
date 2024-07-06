@@ -7,11 +7,12 @@
        <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://mite.club/IoT/script.css; object-src 'none'; style-src 'self' https://mite.club/Iot/style.css; base-uri 'self'; frame-ancestors 'none';">-->
 		<link rel="alternate" href="https://mite.club/ru" hreflang="ru" />
 		<link rel="alternate" href="https://mite.club/uk" hreflang="uk" />
-		<link rel="stylesheet" href="style.css">
-		<script src="script.js" defer></script>
+		<link rel="preload" href="style.css" as="style">
+        <link rel="preload" href="https://fonts.googleapis.com/css?family=BIZ+UDPMincho:wght@400;700&display=swap" as="style">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400;700&display=swap">
 
-		<link href="https://fonts.googleapis.com/css?family=BIZ+UDPMincho:700|BIZ+UDPMincho:400,700&display=swap"
-			rel="stylesheet" />
+
+		<script src="script.js" defer></script>
 
 		<link rel="icon" type="image/png" href="upload/favicon-spider_green.webp" sizes="16x16" />
 
@@ -331,7 +332,7 @@
 				<header class="header-27">
 					<div class="container header-27__container">
 						<h1 class="heading ">The Most Flexible Industrial IoT Platform Ever</h1>
-						<div class="content_box white-bg title-box--center">
+						<div class="content_box white-bg title-box--center" style="max-width:700px; max-height:100px">
 							<h3>The MITE platform has been designed to transform physical infrastructure into a
 								<strong>dynamic</strong> digital landscape, enabling businesses to:</h3>
 							<ul><li class="marker">easily orchestrate <strong>comprehensive</strong> physical infrastructure.</li>
