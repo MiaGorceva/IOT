@@ -4529,10 +4529,17 @@ select.text-input {
     float:inline-start;
 }
 
+.feature__link img{
+    width: 16px;
+    height: 11px;
+}
+
+
 .feature__link {
     position: relative;
     display: inline-block;
     margin-top: 15px;
+    font-size: 14px!important;
    /* font-weight: 700;*/
     text-decoration: none
 }
