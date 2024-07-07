@@ -5,13 +5,17 @@
     /* Additional properties like font-weight and font-style can be specified */
   }
 
+.custom_fonts .custom-google-fonts-enabled * {
+    font-family: 'BIZ UDPMincho', Helvetica, sans-serif;
+}
+
 .custom_fonts .custom-google-fonts-enabled h1,
 .custom_fonts .custom-google-fonts-enabled h2,
 .custom_fonts .custom-google-fonts-enabled h3,
 .custom_fonts .custom-google-fonts-enabled h4,
 .custom_fonts .custom-google-fonts-enabled h5,
 .custom_fonts .custom-google-fonts-enabled h6 {
-    font-family: 'BIZ UDPMincho';
+    font-family: 'BIZ UDPMincho', Helvetica, serif;
 }
 
 .style-green-1,
