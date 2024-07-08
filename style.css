@@ -4551,6 +4551,13 @@ select.text-input {
     text-decoration: none
 }
 
+.footer-02__text a{
+    display: inline-block;
+        padding: 12px 24px; /* Increase the padding to make the touch area larger */
+        margin: 8px 0; /* Add margin to ensure there is enough space between links */
+        text-decoration: none; 
+}
+
 .font-source-code-pro .feature__link {
     font-size: 14px
 }
