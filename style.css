@@ -636,7 +636,8 @@ body.state-fixed-body {
 
 .cta_bottom_info {
     font-size: 1em;
-    color: #828282
+    color: #828282;
+    margin-top: 10px;
 }
 
 hr {
@@ -796,19 +797,22 @@ pre {
 
 .latin-style {
     font-family: 'Lato', sans-serif!important;
-    font-size: 0.8em; /* Adjust the size as needed */
+    font-size: 1em; /* Adjust the size as needed */
     font-weight: 400; /* Bold weight for emphasis */
     color: #54c54a; /* Dark indigo color, adjust as needed */
     text-shadow: 1px 1px 2px #A9A9A9; /* Subtle shadow for depth */
-    text-align: left!important;
+    text-align: right!important;
+    margin-top: -90px !important;
 }
 
 .latin-style::before {
     content: '';
     position: absolute;
-    left: 40%;
-    right: 40%;
-    height: 2px; /* Adjust the height of the green line */
+    left: 50%;
+    right: 26.5%;
+    height: 2px;
+    align-items: right;
+    background: #54c54a;
 }
 
 
