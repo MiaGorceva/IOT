@@ -795,7 +795,7 @@ pre {
 }
 
 .latin-style {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif!important;
     font-size: 0.4em; /* Adjust the size as needed */
     font-weight: 400; /* Bold weight for emphasis */
     color: #54c54a; /* Dark indigo color, adjust as needed */
