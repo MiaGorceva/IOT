@@ -808,6 +808,17 @@ pre {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle box shadow */
 }
 
+.latin-style::before {
+    content: '';
+    position: absolute;
+    top: -8px; /* Adjust position above the element */
+    left: 0;
+    right: 0;
+    height: 5px; /* Adjust the height of the green line */
+    background-color: #54c54a; /* Green color */
+    border-radius: 5px 5px 0 0; /* Rounded corners at the top */
+}
+
 
 .heading--accent,
 .text--04__big_text {
