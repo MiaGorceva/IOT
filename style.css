@@ -6,7 +6,11 @@
   }
 
 .custom_fonts .custom-google-fonts-enabled * {
-    font-family: 'BIZ UDPMincho', 'Material Icons', Helvetica, sans-serif;
+    font-family: 'BIZ UDPMincho', Helvetica, sans-serif;
+}
+
+.header-27__emoji .material-icons{
+    font-family: 'Material Icons'!important;
 }
 
 .custom_fonts .custom-google-fonts-enabled h1,
