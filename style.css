@@ -1657,6 +1657,10 @@ body .page-component__bg_overlay_box {
     background-image: url('upload/the most flexible IoT platform ever.webp');
 }
 
+.bg-dark_gray-color .header-29-smart{
+    background-image: url('upload/mite-ECO_smart.png');
+}
+
 @media (max-width:700px){
     .bg-dark_gray-color{
         background: lightslategrey;
