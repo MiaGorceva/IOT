@@ -11,6 +11,8 @@
 
  .material-icons{
     font-family: 'Material Icons'!important;
+    width: 32px;
+    height: 32px;
     color:#54c54a
 }
 
