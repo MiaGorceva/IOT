@@ -4530,9 +4530,9 @@ select.text-input {
 
 .feature__title {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
     line-height: 100%;
-   /* padding-top: 15px;*/
+    padding-top: 16px;
 }
 
 .feature__title_text {
