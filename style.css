@@ -10166,6 +10166,7 @@ select.text-input {
     position: absolute;
     top: -9px;
     left: 0;
+    padding-top: 16px
 }
 
 @media (max-width: 950px) {
