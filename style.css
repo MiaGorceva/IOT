@@ -5307,7 +5307,8 @@ select.text-input {
 }
 
 .social-buttons__item {
-    margin: 0 6px 5px
+    margin: 0 6px 5px;
+    display: flex;
 }
 
 .social-buttons__link {
