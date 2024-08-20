@@ -16102,6 +16102,13 @@ a.posts-01__item:focus {
     }
 }
 
+@media (max-width:700px) {
+    .title-box--center {
+        width: auto;
+    }
+    
+}
+
 .footer-02__wrapper--center{
     display: flex;
     align-items: center
