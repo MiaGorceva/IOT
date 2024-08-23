@@ -5,3 +5,4 @@ Disallow: /isource.html
 Disallow: /smart-devices.html
 Disallow: /IoTdevices.html
 Disallow: /customize.html
+Sitemap: https://mite.club/sitemap.xml
