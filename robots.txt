@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /uk/index.html
+Disallow: /orchestrate.html
+Disallow: /isource.html
+Disallow: /smart-devices.html
+Disallow: /IoTdevices.html
+Disallow: /customize.html
