@@ -719,7 +719,7 @@ textarea:focus {
 .container--max {
     width: 100%;
     max-width: 95%;
-  /*  margin-right: 0;*/
+    margin-left:12%
 }
 
 
@@ -20120,6 +20120,10 @@ html .bg-accent-color .features-09__item--new,
     width: 100%;
     max-width: 1500px;
     
+}
+
+.icons-text{
+    margin-left: -7%;
 }
 
 @media (max-width: 750px) {
