@@ -4,7 +4,7 @@ Disallow: /orchestrate.html
 Disallow: /isource.html
 Disallow: /smart-devices.html
 Disallow: /customize.html
-Disallow: https://mite.club/?cf7_style=minimal-brown
-Disallow: https://mite.club/?yandex-source=touch-maps
-Disallow: https://mite.club/?yandex-source=desktop-maps
+Disallow: /?cf7_style=minimal-brown
+Disallow: /?yandex-source=touch-maps
+Disallow: /?yandex-source=desktop-maps
 Sitemap: https://mite.club/sitemap.xml
