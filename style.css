@@ -11,7 +11,7 @@
 
  .material-icons{
     font-family: 'Material Icons'!important;
-    font-size: 80px!important;
+    font-size: 40px!important;
     color:#54c54a
 }
 
@@ -725,7 +725,7 @@ textarea:focus {
 .fas{
     font-family: "Font Awesome 6 Free" !important;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 40px;
     color: #54c54a;
 }
 
