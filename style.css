@@ -20130,10 +20130,6 @@ html .bg-accent-color .features-09__item--new,
     
 }
 
-.icons-text{
-    margin-left: -7%;
-}
-
 @media (max-width: 750px) {
     .steps-03__list {
         flex-direction: column;
@@ -20142,7 +20138,7 @@ html .bg-accent-color .features-09__item--new,
 }
 
 .steps-03__item {
-    text-align: justify
+    text-align: center
 }
 
 .steps-03__item--1-5 {
