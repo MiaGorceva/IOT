@@ -719,7 +719,7 @@ textarea:focus {
 .container--max {
     width: 100%;
     max-width: 95%;
-    margin-left:12%
+/*    margin-left:12%*/
 }
 
 .fas{
