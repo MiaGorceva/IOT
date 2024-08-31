@@ -1328,7 +1328,7 @@
 						const referenceElement = document.querySelector('.steps-03__item--1-4');
 						const targetElements = document.querySelectorAll('.steps-03__img_box');
 						const referenceWidth = referenceElement.offsetWidth;
-						const paddingValue = (referenceWidth - 140)/2; // 10% от ширины элемента steps-03__item--1-4
+						const paddingValue = 0 //(referenceWidth - 140)/2; // 10% от ширины элемента steps-03__item--1-4
 			
 						targetElements.forEach(function(element) {
 							element.style.paddingLeft = `${paddingValue}px`;
