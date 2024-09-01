@@ -5281,8 +5281,9 @@ select.text-input {
 
 
 .social-buttons--left .social-buttons__list {
-    justify-content: flex-start;
+    justify-content: center;
     display: grid;
+    text-align: center;
 }
 
 .social-buttons--left .social-buttons__item {
