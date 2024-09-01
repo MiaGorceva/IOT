@@ -5279,6 +5279,10 @@ select.text-input {
     }
 }
 
+.li .social-buttons__link{
+    display: flex;
+    justify-content: center;
+}
 
 .social-buttons--left .social-buttons__list {
     justify-content: center;
