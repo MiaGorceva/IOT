@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru" xmlns:turbo="http://turbo.yandex.ru" version="2.0">
+    <channel>
+        <title>MITE – Industrial IoT Platform and Smart Sensors</title>
+        <link>https://mite.club</link>
+        <description>Innovative IoT solutions by MITE, including the MITE Industrial IoT platform and the MITE-Eco smart temperature and humidity sensor.</description>
+        <language>ru</language>
+
+        <!-- IoT Platform Page -->
+        <item turbo="true">
+            <title>MITE Industrial IoT Platform</title>
+            <link>https://mite.club</link>
+            <author>MITE.club</author>
+            <pubDate>Thu, 01 Sep 2024 12:00:00 +0300</pubDate>
+            <turbo:content>
+                <![CDATA[
+                <header>
+                    <h1>the most flexible Industrial IoT Platform</h1>
+                </header>
+                <p>MITE IoT Platform – a flexible and powerful solution for managing and connecting various IoT devices.</p>
+                <figure>
+                    <img src="upload/the future of IoT.png" alt="MITE Industrial IoT Platform">
+                </figure>
+                <p>Discover how our platform can streamline your IoT processes.</p>
+                ]]>
+            </turbo:content>
+        </item>
+
+        <!-- MITE-Eco Sensor Page -->
+        <item turbo="true">
+            <title>MITE-Eco Smart Temperature and Humidity Sensors</title>
+            <link>https://mite.club/smart-devices</link>
+            <author>MITE.club</author>
+            <pubDate>Thu, 01 Sep 2024 12:00:00 +0300</pubDate>
+            <turbo:content>
+                <![CDATA[
+                <header>
+                    <h1>MITE-Eco smart Temperature and humidity Sensors</h1>
+                </header>
+                <p>The MITE-Eco temperature and humidity sensors are designed for high-precision environmental monitoring.</p>
+                <figure>
+                    <img src="upload/mite-ECO_smart.png" alt="MITE-Eco smart Temperature and Humidity Sensors">
+                </figure>
+                <p>Perfect for industrial and environmental applications, the MITE-Eco ensures accurate readings in all conditions.</p>
+                ]]>
+            </turbo:content>
+        </item>
+
+    </channel>
+</rss>
