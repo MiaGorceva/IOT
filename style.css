@@ -16100,8 +16100,18 @@ a.posts-01__item:focus {
 }
 
 .footer-02__wrapper--center{
-    display: flex;
-    align-items: center
+    align-items: center;
+    flex: 0 0 60%
+}
+
+.footer-02__wrapper--left{
+    align-items: center;
+    flex:0 0 40%
+}
+
+.footer-02__wrapper--right{
+    margin: 0 auto;
+    text-align: center;
 }
 
 .footer-02 {
@@ -16144,7 +16154,6 @@ a.posts-01__item:focus {
 }
 
 .footer-02__wrapper {
-    flex: 1 0 0;
     display: flex;
     align-items: stretch;
     align-content: space-between;
