@@ -16141,14 +16141,12 @@ a.posts-01__item:focus {
 }
 
 .footer-02__wrapper {
-    flex: 30% 40% 30%;
     display: flex;
     align-items: stretch;
     align-content: space-between;
-    flex-wrap: wrap;
-    justify-content: center;
     flex-direction: column;
 }
+
 
 .footer-02--center{
     align-items: flex-end;
