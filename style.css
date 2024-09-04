@@ -5313,6 +5313,7 @@ select.text-input {
 .social-buttons__item {
     margin: 0 6px 5px;
     display: flex;
+    justify-content: space-between
 }
 
 .social-buttons__link {
