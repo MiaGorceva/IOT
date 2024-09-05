@@ -4690,7 +4690,7 @@ select.text-input {
     justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
-    align-items: flex-end
+    align-items: center
 }
 
 @media (max-width: 600px) {
@@ -4775,7 +4775,7 @@ select.text-input {
 }
 
 .form__button {
-    margin-left: 15px;
+    margin-top: 16px;
 }
 
 @media (max-width: 500px) {
