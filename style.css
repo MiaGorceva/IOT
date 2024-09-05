@@ -4515,7 +4515,8 @@ select.text-input {
 }
 
 .feature--center {
-    text-align: center
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 .feature--center .feature__icon {
@@ -10043,6 +10044,7 @@ select.text-input {
 .flex-footer{
     display:flex;
     max-width: 1500px;
+    margin-top: 40px;
 }
 
 .slider-07__wrapper {
