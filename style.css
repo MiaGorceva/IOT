@@ -4687,7 +4687,7 @@ select.text-input {
 
 .form__inputs {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     position: relative;
     align-items: center
