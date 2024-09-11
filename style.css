@@ -3142,7 +3142,7 @@ select.text-input {
 }
 
 .social-buttons__item {
-    margin: 0 6px 5px;
+    margin: 0 6px 6px;
     display: flex;
    /* justify-content: space-between*/
 }
@@ -3303,12 +3303,12 @@ select.text-input {
 }
 
 .nav-02__logo_img {
-    margin-right: 5px;
+    margin-right: 6px;
 }
 
 .nav-02__logo_text {
-    padding-right: 5px;
-    margin-top: -17px;
+    padding-right: 6px;
+    margin-top: -18px;
     font-weight: 700;
     letter-spacing: 0.01em;
     font-size: 18px;
@@ -3368,7 +3368,7 @@ select.text-input {
     display: inline-block;
     vertical-align: middle;
     font-size: 10px;
-    margin-right: 15px
+    margin-right: 18px
 }
 
 .nav-02__item form {
@@ -3384,7 +3384,7 @@ select.text-input {
         transform: translateY(5px);
         opacity: 0;
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
         text-align: center;
         transition: opacity 0.2s ease, transform 0.2s ease
     }
@@ -3457,7 +3457,7 @@ select.text-input {
 .nav-02 .buttons-set__list {
     display: flex;
     flex-direction: row-reverse;
-    margin-right: -7px
+    margin-right: -6px
 }
 
 @media (max-width: 900px) {
@@ -3558,7 +3558,7 @@ select.text-input {
 
 @media (max-width: 840px) {
     .header-27__buttons {
-        margin-bottom: 70px
+        margin-bottom: 72px
     }
 }
 
@@ -3576,8 +3576,8 @@ select.text-input {
 .header-27__item {
     position: relative;
     vertical-align: top;
-    margin: 0 15px 50px;
-    padding: 10px 20px 15px 20px;
+    margin: 0 18px 54px;
+    padding: 12px 24px 18px 24px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     background-color: white;
@@ -3597,16 +3597,16 @@ select.text-input {
 }
 
 .header-27__title {
-    margin-bottom: 7px;
-    font-size: 20px;
+    margin-bottom: 6px;
+    font-size: 24px;
     margin-top: 0px;
     line-height: 125%;
-    margin-left: 20px
+    margin-left: 24px
 }
 
 .header-27__info {
     opacity: 0.6;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-size: 14px;
     flex-shrink: 0;
 }
@@ -3624,7 +3624,7 @@ select.text-input {
 }
 
 .header-27__link .button--empty {
-    margin-bottom: -10px
+    margin-bottom: -12px
 }
 
 .header-39 {
@@ -3648,7 +3648,7 @@ select.text-input {
 }
 
 .header-39__buttons {
-    margin-top: 50px;
+    margin-top: 54px;
     margin-right: auto;
     margin-left: auto;
     max-width: 450px
@@ -3665,7 +3665,7 @@ select.text-input {
 }
 
 .team-05__person_name {
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     line-height: 1.4
 }
 
@@ -3747,7 +3747,7 @@ select.text-input {
     padding: 0;
     margin: 0;
     list-style: none;
-    padding-left: 60px;
+    padding-left: 54px;
     width: 60%;
 }
 
@@ -3773,17 +3773,17 @@ select.text-input {
 
 @media (max-width: 600px) {
     .slider-05__text_container {
-        margin-top: 90px;
-        padding-left: 15px;
-        padding-right: 15px;
+        margin-top: 72px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 
 .slider-05__feature {
-    margin-bottom: 60px;
+    margin-bottom: 54px;
     border-radius: 10px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.7);
-    padding-right: 40px;
+    padding-right: 36px;
 }
 
 .slider-05__feature:last-child {
@@ -3807,7 +3807,7 @@ select.text-input {
 .flex-footer{
     display:flex;
     max-width: 1500px;
-    margin-top: 40px;
+    margin-top: 36px;
 }
 
 .slider-07__wrapper {
@@ -3841,7 +3841,7 @@ select.text-input {
     .slider-07__slider_wrapper {
         width: 100%;
         max-width: 100%;
-        margin-bottom: 70px
+        margin-bottom: 72px
     }
 }
 
@@ -3850,7 +3850,7 @@ select.text-input {
 }
 
 .slider-07__item {
-    padding: 40px 0;
+    padding: 36px 0;
     margin: 0 auto
 }
 
@@ -3893,7 +3893,7 @@ select.text-input {
     margin: 0;
     list-style: none;
     max-width: 400px;
-    margin-right: 40px;
+    margin-right: 36px;
     box-sizing: border-box
 }
 
@@ -3914,13 +3914,13 @@ select.text-input {
 
 @media (max-width: 600px) {
     .slider-07__feature_container {
-        margin-top: 20px
+        margin-top: 24px
     }
 }
 
 .slider-07__feature {
-    padding-left: 60px;
-    margin-bottom: 60px;
+    padding-left: 54px;
+    margin-bottom: 54px;
     position: relative
 }
 
@@ -3939,7 +3939,7 @@ select.text-input {
     .slider-07__feature {
         max-width: 400px;
         padding-left: 0;
-        margin-bottom: 40px
+        margin-bottom: 36px
     }
 
     .slider-07__feature:last-child {
@@ -4154,7 +4154,7 @@ select.text-input {
 
 .pricing-05__cards_container {
     position: relative;
-    padding: 0 30px 0;
+    padding: 0 36px 0;
     margin-left: auto;
     margin-right: auto
 }
@@ -4282,7 +4282,7 @@ select.text-input {
 }
 
 .pricing-05__card_title {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     font-size: 14px;
     text-transform: uppercase;
     color: inherit;
@@ -4291,13 +4291,13 @@ select.text-input {
 .pricing-05__card_info {
     line-height: 1.4;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     opacity: 0.8
 }
 
 .pricing-05__price_box {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     height: 20px
 }
 
@@ -4368,7 +4368,7 @@ select.text-input {
     display: none;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: -30px;
+    margin-top: -36px;
     align-items: flex-start
 }
 
@@ -4387,7 +4387,7 @@ select.text-input {
 
 .pricing-05__cards_mobile .pricing-05__table {
     max-width: 320px;
-    margin: 30px 15px 0
+    margin: 36px 18px 0
 }
 
 .pricing-05__cards_mobile .pricing-05__info {
@@ -4429,7 +4429,7 @@ select.text-input {
 }
 
 .pricing-05__cards_mobile .pricing-05__header-text-container {
-    margin-right: 7px
+    margin-right: 6px
 }
 
 .pricing-05__cards_mobile .pricing-05__hover {
@@ -4451,7 +4451,7 @@ select.text-input {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: -20px
+    margin-bottom: -24px
 }
 
 .posts-02__item {
@@ -4460,10 +4460,10 @@ select.text-input {
     align-items: flex-end;
     flex-wrap: nowrap;
     width: calc(24% - 10px);
-    padding: 24px 24px 32px 12px;
-    margin-bottom: 20px;
-    margin-right: 8px;
-    margin-left: 8px;
+    padding: 24px 24px 36px 12px;
+    margin-bottom: 24px;
+    margin-right: 6px;
+    margin-left: 6px;
     border-radius: 16px;
     flex-direction: column;
     border-radius: 10px;
@@ -4539,12 +4539,12 @@ select.text-input {
     overflow: hidden;
     float:inline-start;
     /*padding-right: 20px;*/
-    margin-right: 7px;
+    margin-right: 6px;
 }
 
 @media (max-width: 760px) {
     .posts-02__img_box {
-        margin-bottom: 20px
+        margin-bottom: 24px
     }
 }
 
@@ -4582,7 +4582,7 @@ select.text-input {
 
 .clients-02__title {
     margin-top: 0;
-    margin-bottom: 40px
+    margin-bottom: 36px
 }
 
 .clients-02__list {
@@ -4594,19 +4594,19 @@ select.text-input {
     align-items: center;
     flex-wrap: wrap;
     margin: 0px auto auto;
-    margin-bottom: -20px;
+    margin-bottom: -24px;
     max-width: 450px
 }
 
 .clients-02__item {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 40px
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 36px
 }
 
 .clients-02__text_box {
     list-style: none;
-    padding: 50px
+    padding: 54px
 }
 
 @media (max-width: 400px) {
@@ -4618,7 +4618,7 @@ select.text-input {
 }
 
 .clients-02__text_item {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
     text-align: left
 }
 
@@ -4629,7 +4629,7 @@ select.text-input {
 .clients-02__text {
     display: inline-block;
     line-height: 1.6;
-    padding: 7px 15px;
+    padding: 6px 18px;
     border-radius: 4px
 }
 
@@ -4684,7 +4684,7 @@ select.text-input {
 }
 
 .cta_button-25__subheading {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     font-size: 12px;
     font-weight: 700;
     line-height: 1.4;
@@ -4693,9 +4693,9 @@ select.text-input {
 
 .cta_button-25__item {
     width: calc(100%/3 - 50px);
-    padding-top: 15px;
-    margin-right: 75px;
-    margin-bottom: 50px;
+    padding-top: 18px;
+    margin-right: 72px;
+    margin-bottom: 54px;
     position: relative
 }
 
@@ -4720,7 +4720,7 @@ select.text-input {
 @media (max-width: 800px) {
     .cta_button-25__item {
         width: calc(100%/3 - 30px);
-        margin-right: 45px
+        margin-right: 42px
     }
 }
 
@@ -4729,7 +4729,7 @@ select.text-input {
         width: 100%;
         max-width: 180px;
         margin-right: 0;
-        margin-bottom: 50px
+        margin-bottom: 54px
     }
 
     .cta_button-25__item:last-child {
@@ -4802,7 +4802,7 @@ select.text-input {
 @media (max-width: 750px) {
     .cta_button-31__heading {
         max-width: 400px;
-        margin: 0 auto 25px;
+        margin: 0 auto 24px;
         text-align: center
     }
 }
@@ -4822,7 +4822,7 @@ select.text-input {
 }
 
 .contact-01__list_item {
-    margin-bottom: 20px
+    margin-bottom: 24px
 }
 
 .contact-01__list_item:last-child {
@@ -4838,7 +4838,7 @@ select.text-input {
 }
 
 .contact-01__map_box {
-    margin-top: 80px;
+    margin-top: 72px;
     width: 100px;
 }
 
@@ -5111,7 +5111,7 @@ select.text-input {
 }
 
 .text--02__link_box {
-    margin-top: 20px
+    margin-top: 24px
 }
 
 .code-02__info_prefix {
@@ -5137,7 +5137,7 @@ select.text-input {
     padding: 0;
     margin: 0;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 36px;
     max-width: 70%;
 }
 
@@ -5152,7 +5152,7 @@ select.text-input {
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     padding: 20px 15px 20px 20px;
     background-color: white;
     border: 2px solid #D8DDE6;
@@ -5207,7 +5207,7 @@ select.text-input {
 
 .faq-01__answer {
     display: none;
-    margin-top: 20px;
+    margin-top: 24px;
     color: #303030;
     font-weight: 400
 }
@@ -5233,7 +5233,7 @@ select.text-input {
     position: relative;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     padding: 20px 15px 20px 15px;
     background-color: white;
     border: 2px solid #D8DDE6;
@@ -5273,13 +5273,13 @@ select.text-input {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-bottom: -60px
+    margin-bottom: -54px
 }
 
 .features-01__item {
     width: 30%;
-    margin-bottom: 60px;
-    padding-right: 50px
+    margin-bottom: 54px;
+    padding-right: 54px
 }
 
 @media (max-width: 990px) {
@@ -5389,8 +5389,8 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .features-17__item {
-    padding: 20px 35px 30px 30px;
-    margin-bottom: 30px;
+    padding: 24px 36px 36px 36px;
+    margin-bottom: 36px;
     border-radius: 10px;
     border: 2px solid rgba(151, 151, 151, 0.2)
 }
@@ -5400,7 +5400,7 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .features-17__item .feature {
-    padding-left: 60px;
+    padding-left: 54px;
     position: relative
 }
 
@@ -5422,7 +5422,7 @@ html .bg-accent-color .features-09__item--new {
 
     .features-17__item .feature__icon {
         position: static;
-        margin-right: 10px
+        margin-right: 12px
     }
 }
 
@@ -5508,13 +5508,13 @@ html .bg-accent-color .features-09__item--new {
         width: 100%;
         max-width: 276px;
         text-align: left;
-        margin-bottom: 30px;
+        margin-bottom: 36px;
     }
 }
 
 @media (max-width: 1100px) {
     .steps-01__text_box .leftStyle ul{
-        margin-right: -40px;
+        margin-right: -36px;
     }
 }
 
@@ -5601,7 +5601,7 @@ html .bg-accent-color .features-09__item--new {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 36px;
     width: 100%;
     max-width: 1500px;
     
@@ -5663,7 +5663,7 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .steps-03__text {
-    margin-top: 15px;
+    margin-top: 18px;
     padding: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -5877,12 +5877,12 @@ html .bg-accent-color .features-09__item--new {
 
 .simple-cookie-widget__icon {
     height: 40px;
-    margin-right: 15px
+    margin-right: 16px
 }
 
 @media (max-width: 500px) {
     .simple-cookie-widget__icon {
-        margin-right: 10px
+        margin-right: 12px
     }
 }
 
@@ -5901,12 +5901,12 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .simple-cookie-widget__button_box {
-    margin-left: 20px
+    margin-left: 24px
 }
 
 @media (max-width: 500px) {
     .simple-cookie-widget__button_box {
-        padding-top: 20px
+        padding-top: 24px
     }
 }
 
@@ -5949,7 +5949,7 @@ html .bg-accent-color .features-09__item--new {
 
 
 .lang-widget__current {
-    padding: 10px 20px
+    padding: 12px 24px
 }
 
 .popup-01__container {
@@ -5966,13 +5966,13 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .popup-01__content {
-    padding: 64px 32px
+    padding: 54px 36px
 }
 
 @media (max-width: 768px) {
     .popup-01__content {
-        padding-top: 40px;
-        padding-bottom: 40px
+        padding-top: 36px;
+        padding-bottom: 36px
     }
 }
 
@@ -5996,11 +5996,11 @@ html .bg-accent-color .features-09__item--new {
 
 .popup-01__cta-box .buttons-set,
 .popup-01 .form {
-    margin-top: 40px
+    margin-top: 36px
 }
 
 .popup-01 .form {
-    padding-bottom: 14px
+    padding-bottom: 12px
 }
 
 .popup-01 .buttons-set__item,
@@ -6045,13 +6045,13 @@ html .bg-accent-color .features-09__item--new {
 @media (min-width: 769px) {
     .popup-01 .form__input {
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
         margin-right: 0
     }
 }
 
 .popup-01 .form__button {
-    margin-top: 20px;
+    margin-top: 24px;
     text-align: center;
     margin-left: 0
 }
@@ -6062,7 +6062,7 @@ html .bg-accent-color .features-09__item--new {
 
 @media (max-width: 768px) {
     .popup-01 .form__button {
-        margin-left: 15px
+        margin-left: 18px
     }
 
     .popup-01 .form__button .button {
@@ -6144,12 +6144,12 @@ html .bg-accent-color .features-09__item--new {
 
 .popup-component_no-image .popup-01 .form__input {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
     margin-right: 0
 }
 
 .popup-component_no-image .popup-01 .form__button {
-    margin-top: 20px;
+    margin-top: 24px;
     text-align: center;
     margin-left: 0
 }
@@ -6285,7 +6285,7 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .directory-01__items {
-    margin-top: 20px;
+    margin-top: 24px;
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(4, 1fr);
@@ -6364,7 +6364,7 @@ html .bg-accent-color .features-09__item--new {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px
+    margin-bottom: 12px
 }
 
 .directory-01__rating {
@@ -6382,7 +6382,7 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .directory-01__show-more-box {
-    margin-top: 20px;
+    margin-top: 24px;
     display: flex;
     justify-content: center
 }
@@ -6407,7 +6407,7 @@ html .bg-accent-color .features-09__item--new {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 20px
+    margin-top: 24px
 }
 
 .directory-01__tag-button {
@@ -6733,7 +6733,7 @@ html .bg-accent-color .features-09__item--new {
     text-align: center;
     font-size: 14px;
     line-height: 16px;
-    margin-top: -8px;
+    margin-top: -6px;
     color: #CCC
 }
 
@@ -6847,7 +6847,7 @@ html .bg-accent-color .features-09__item--new {
 .pswp__button--arrow--right {
     background: none;
     top: 50%;
-    margin-top: -50px;
+    margin-top: -54px;
     width: 70px;
     height: 100px;
     position: absolute
@@ -6986,7 +6986,7 @@ html .bg-accent-color .features-09__item--new {
     max-width: 420px;
     margin: 0 auto;
     font-size: 13px;
-    padding: 10px;
+    padding: 12px;
     line-height: 20px;
     color: #CCC
 }
@@ -7005,7 +7005,7 @@ html .bg-accent-color .features-09__item--new {
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -22px;
+    margin-left: -24px;
     opacity: 0;
     transition: opacity 0.25s ease-out;
     will-change: opacity;
@@ -7239,15 +7239,15 @@ html.with-featherlight {
     .graphics-video:not(.default-graphics-video) .slider-07__item,
     .graphics-HTML:not(.default-graphics-HTML) .slider-05__item,
     .graphics-HTML:not(.default-graphics-HTML) .slider-07__item {
-        padding-left: 25px;
-        padding-right: 25px
+        padding-left: 24px;
+        padding-right: 24px
     }
 }
 
 
 .graphics-image:not(.default-graphics-image) .header-39__HTML,
 .graphics-HTML:not(.default-graphics-HTML) .header-39__HTML {
-    margin-top: 50px
+    margin-top: 54px
 }
 
 .graphics-video:not(.default-graphics-video) .graphics-video__video-element {
