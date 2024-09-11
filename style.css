@@ -4810,6 +4810,10 @@ select.text-input {
     text-align: center
 }
 
+.contact-info{
+    z-index: 10;
+}
+
 .contact-01__list {
     padding: 0;
     margin: 0;
