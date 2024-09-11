@@ -3607,6 +3607,7 @@ select.text-input {
     opacity: 0.6;
     margin-bottom: 10px;
     font-size: 14px;
+    flex-shrink: 0;
 }
 
 .header-27__emoji {
