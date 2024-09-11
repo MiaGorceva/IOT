@@ -5003,7 +5003,7 @@ select.text-input {
 @media (max-width: 750px){
     .footer-02 .footer-02__mobile {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 }
