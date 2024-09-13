@@ -1072,6 +1072,10 @@ body .page-component__bg_overlay_box {
     background-color: white
 }
 
+.feature-icon{
+    font-size: 80px;
+}
+
 .burger__box {
     width: 12px;
     height: 14px;
