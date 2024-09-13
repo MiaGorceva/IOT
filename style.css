@@ -5640,7 +5640,7 @@ html .bg-accent-color .features-09__item--new {
 
 .steps-03__img_box {
     position: relative;
-    padding-left: 0;
+    padding-left: 0!important;
 }
 
 .steps-03__img{
@@ -5650,9 +5650,9 @@ html .bg-accent-color .features-09__item--new {
 
 @media (max-width: 750px) {
     .steps-03__img_box {
-        padding-right: 15px;
+        padding-right: 18px;
         float: inline-start;
-        padding-left: 15px!important;
+        padding-left: 18px!important;
     }
 }
 
@@ -5863,7 +5863,7 @@ html .bg-accent-color .features-09__item--new {
 
 @media (max-width: 500px) {
     .simple-cookie-widget__container {
-        padding: 10px
+        padding: 12px
     }
 }
 
@@ -6118,8 +6118,8 @@ html .bg-accent-color .features-09__item--new {
 
 @media (max-width: 768px) {
     .popup-component_no-image .popup-01__content {
-        padding-top: 40px;
-        padding-bottom: 40px
+        padding-top: 42px;
+        padding-bottom: 42px
     }
 }
 
@@ -6264,7 +6264,7 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .popup-component .message__body {
-    padding-bottom: 47px
+    padding-bottom: 48px
 }
 
 .live_website .popup-component {
@@ -6330,7 +6330,7 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .directory-01__item a {
-    padding: 20px;
+    padding: 18px;
     display: block;
     text-decoration: none;
     height: 100%
@@ -6419,7 +6419,7 @@ html .bg-accent-color .features-09__item--new {
     background-color: rgba(0, 0, 0, 0.05);
     color: rgba(48, 48, 48, 0.8);
     font-size: 14px;
-    padding: 10px 20px;
+    padding: 12px 24px;
     cursor: pointer;
     transition: color 0.1s, background-color 0.1s
 }
@@ -6899,7 +6899,7 @@ html .bg-accent-color .features-09__item--new {
     height: 100%;
     top: 0;
     left: 0;
-    padding: 10px;
+    padding: 12px;
     position: absolute;
     z-index: 1600;
     opacity: 0;
@@ -6928,7 +6928,7 @@ html .bg-accent-color .features-09__item--new {
 
 .pswp__share-tooltip a {
     display: block;
-    padding: 8px 12px;
+    padding: 6px 12px;
     color: #000;
     text-decoration: none;
     font-size: 14px;
@@ -6957,7 +6957,7 @@ html .bg-accent-color .features-09__item--new {
 }
 
 .pswp--touch .pswp__share-tooltip a {
-    padding: 16px 12px
+    padding: 18px 12px
 }
 
 .pswp__counter {
@@ -6969,7 +6969,7 @@ html .bg-accent-color .features-09__item--new {
     line-height: 44px;
     color: #FFF;
     opacity: 0.75;
-    padding: 0 10px
+    padding: 0 12px
 }
 
 .pswp__caption {
@@ -7214,7 +7214,7 @@ html.with-featherlight {
 }
 
 .featherlight {
-    padding: 20px;
+    padding: 18px;
     background: rgba(0, 0, 0, 0.8)
 }
 
@@ -7232,8 +7232,8 @@ html.with-featherlight {
     .graphics-video:not(.default-graphics-video) .slider-07__item,
     .graphics-HTML:not(.default-graphics-HTML) .slider-05__item,
     .graphics-HTML:not(.default-graphics-HTML) .slider-07__item {
-        padding-left: 115px;
-        padding-right: 115px
+        padding-left: 114px;
+        padding-right: 114px
     }
 }
 
