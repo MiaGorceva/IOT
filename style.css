@@ -1154,7 +1154,7 @@ body .page-component__bg_overlay_box {
     overflow: hidden;
     display: inline-block;
     position: relative;
-    padding: 12px 20px 12px;
+    padding: 12px 24px 12px;
     min-width: 120px;
     border: 2px solid transparent;
     min-height: 44px;
@@ -2703,7 +2703,8 @@ select.text-input {
 }
 
 .form__button {
-    margin-top: 16px;
+    margin-top: 20px;
+    margin-left: 18px;
 }
 
 @media (max-width: 500px) {
