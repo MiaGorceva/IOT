@@ -4543,7 +4543,7 @@ select.text-input {
     overflow: hidden;
     float:inline-start;
     /*padding-right: 20px;*/
-    margin-right: 6px;
+    margin-right: 12px;
 }
 
 @media (max-width: 760px) {
