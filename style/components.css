@@ -1,0 +1,70 @@
+/* components.css */
+
+/* Tag Button */
+.directory-01__tag-button {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: rgba(48, 48, 48, 0.8);
+    font-size: 14px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: color 0.1s, background-color 0.1s;
+}
+
+.directory-01__tag-button:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.directory-01__tag-button.is-selected {
+    background-color: #303030;
+    color: #fff;
+}
+
+.uni-is-dark-bg .directory-01__tag-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.uni-is-dark-bg .directory-01__tag-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.uni-is-dark-bg .directory-01__tag-button.is-selected {
+    background-color: #fff;
+    color: #303030;
+}
+
+/* Loading Item */
+.directory-01__loading-item {
+    height: 150px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.04) 25%, rgba(255, 255, 255, 0.4) 35%, rgba(0, 0, 0, 0.04) 45%);
+    background-size: 400% 100%;
+    z-index: 1;
+    -webkit-animation: directory-loading 1.7s ease infinite;
+    animation: directory-loading 1.7s ease infinite;
+    border-radius: 10px;
+}
+
+.uni-is-dark-bg .directory-01__loading-item {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 25%, rgba(0, 0, 0, 0.4) 35%, rgba(255, 255, 255, 0.1) 45%);
+}
+
+/* Keyframes for Loading Animation */
+@-webkit-keyframes directory-loading {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+@keyframes directory-loading {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
