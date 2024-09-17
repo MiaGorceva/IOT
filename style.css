@@ -3149,7 +3149,7 @@ select.text-input {
 .social-buttons__item {
     margin: 0 6px 6px;
     display: flex;
-   /* justify-content: space-between*/
+    justify-content: space-between
 }
 
 
