@@ -3619,7 +3619,8 @@ select.text-input {
 .header-27__emoji {
     float: inline-start;
     display: flex;
-    align-items: center
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .header-27__emoji img,
