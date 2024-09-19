@@ -2641,7 +2641,8 @@ select.text-input {
    /* text-align: justify;*/
     text-indent: -1.8em;
     padding-left: 1.8em;
-    margin-left: 8%
+    margin-left: 8%;
+    list-style: none
 }
 
 @media (max-width: 1100px) {
