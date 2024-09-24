@@ -5647,6 +5647,10 @@ html .bg-accent-color .features-09__item--new {
     padding-left: 0!important;
 }
 
+.steps-03__img_box i{
+    transform: scale(0.9); /* Adjust to your preference */
+}
+
 .steps-03__img{
     width: 140px;
     height: 140px;
