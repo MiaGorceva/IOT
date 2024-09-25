@@ -5,16 +5,11 @@
     /* Additional properties like font-weight and font-style can be specified */
   }
 
-.fal {
+/*.fal {
     font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
-    color: #54c54a;
-    font-weight: 300;
-}
-
-/* Global font for text, ensuring it does not affect icons */
-.custom_fonts p, .custom_fonts h1, .custom_fonts h2, .custom_fonts h3, .custom_fonts h4, .custom_fonts h5, .custom_fonts h6 {
-    font-family: 'Lato', Helvetica, sans-serif;
-}
+  /*  color: #54c54a;
+    font-weight: 600;
+}*/
 
 .custom_fonts .custom-google-fonts-enabled * {
     font-family: 'BIZ UDPMincho', Helvetica, sans-serif;
@@ -304,9 +299,9 @@ body.state-fixed-body {
     overflow: hidden
 }
 
-/*.custom_fonts * {
+.custom_fonts * {
     font-family: 'Lato', Helvetica, sans-serif
-}*/
+}
 
 .comps p {
     margin-bottom: 1em;
