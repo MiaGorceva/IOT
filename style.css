@@ -7,7 +7,6 @@
 
 .fa, .fab, .fad, .fal, .far, .fas {
     font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
-    font-weight: 900;
     -moz-osx-font-smoothing: #54c54a;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -15,6 +14,7 @@
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
+    color: #54c54a;
 }
 
 .custom_fonts .custom-google-fonts-enabled * {
