@@ -11,6 +11,23 @@
     font-weight: 300;
 }
 
+/* Global font for text, ensuring it does not affect icons */
+.custom_fonts p, .custom_fonts h1, .custom_fonts h2, .custom_fonts h3, .custom_fonts h4, .custom_fonts h5, .custom_fonts h6 {
+    font-family: 'Lato', Helvetica, sans-serif;
+}
+
+
+/* Fallback in case of other font overrides */
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
 .custom_fonts .custom-google-fonts-enabled * {
     font-family: 'BIZ UDPMincho', Helvetica, sans-serif;
 }
