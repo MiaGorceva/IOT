@@ -5,16 +5,10 @@
     /* Additional properties like font-weight and font-style can be specified */
   }
 
-.fa, .fab, .fad, .fal, .far, .fas {
+.fal {
     font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
-    -moz-osx-font-smoothing: #54c54a;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
     color: #54c54a;
+    font-weight: 300;
 }
 
 .custom_fonts .custom-google-fonts-enabled * {
