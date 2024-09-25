@@ -7,7 +7,6 @@
 
 .fal {
     font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
-    color: #54c54a;
     font-weight: 600;
 }
 
@@ -18,7 +17,6 @@
  .material-icons{
     font-family: 'Material Icons'!important;
     font-size: 40px!important;
-    color:#54c54a
 }
 
 .custom_fonts .custom-google-fonts-enabled h1,
@@ -1080,6 +1078,7 @@ body .page-component__bg_overlay_box {
 
 .feature-icon{
     font-size: 80px;
+    color: #54c54a;
 }
 
 .burger__box {
