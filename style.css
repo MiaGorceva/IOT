@@ -3316,6 +3316,9 @@ select.text-input {
 
 .nav-02__logo_img {
     margin-right: 6px;
+    height: 100px;
+    width: 144px;
+    aspect-ratio: 144 / 100; 
 }
 
 .nav-02__logo_text {
