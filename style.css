@@ -316,9 +316,9 @@ body.state-fixed-body {
     overflow: hidden
 }
 
-.custom_fonts * {
+/*.custom_fonts * {
     font-family: 'Lato', Helvetica, sans-serif
-}
+}*/
 
 .comps p {
     margin-bottom: 1em;
