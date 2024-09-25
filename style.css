@@ -5,11 +5,11 @@
     /* Additional properties like font-weight and font-style can be specified */
   }
 
-/*.fal {
+.fal {
     font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
-  /*  color: #54c54a;
+    color: #54c54a;
     font-weight: 600;
-}*/
+}
 
 .custom_fonts .custom-google-fonts-enabled * {
     font-family: 'BIZ UDPMincho', Helvetica, sans-serif;
