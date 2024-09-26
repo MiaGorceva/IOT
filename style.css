@@ -2679,7 +2679,8 @@ select.text-input {
     .form__input {
         width: 100%;
         margin-bottom: 15px;
-        margin-right: 0
+        margin-right: 0;
+        margin-bottom: 5px
     }
 }
 
