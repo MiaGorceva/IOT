@@ -1511,7 +1511,7 @@ html.custom-primary-button-color-bright .store-button:hover {
 .form__input .chosen-container .chosen-choices {
     width: 100%;
     border-radius: 4px;
-    padding: 12 24px;
+    padding: 12px 24px;
     height: 44px;
     background-color: rgba(246, 246, 246, 0.3);
     border: 2px solid #D8DDE6;
