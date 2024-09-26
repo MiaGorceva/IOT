@@ -24,13 +24,31 @@
 
 	<!-- Preload font files -->
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap" rel="stylesheet">
 
 	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
 
 
 	<link rel="icon" type="image/webp" href="upload/favicon-spider_green.webp" sizes="16x16" />
+
+	<style>
+		/* Critical CSS here */
+		body { font-family: 'BIZ UDPMincho', serif; }
+	</style>
+	<!-- Preload and asynchronously load Google Fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap">
+    </noscript>
+
+    <!-- Defer FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    </noscript>
+
+
 	<title>Smart IoT devices for real-time monitoring. Temperature and humidity sensors</title>
 
 
