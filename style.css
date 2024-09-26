@@ -3193,7 +3193,7 @@ select.text-input {
 .social-buttons__icon {
     vertical-align: middle;
     width: 36px;
-    max-height: 36px
+    height: 36px
 }
 
 .nav-02 {
