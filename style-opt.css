@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Playfair Display', 'BIZ UDPMincho', Helvetica, sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=BIZ+UDPMincho') format('woff2');
+    font-display: swap;
+    /* Additional properties like font-weight and font-style can be specified */
+  }
+
 .fal {
     font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
     font-weight: 510;
@@ -27,14 +34,6 @@
 .style-green-2 {
     --dark: #0A6B01;
     --light: #E4FEEC
-}
-
-.style-green-2:not(.custom-colors-enabled) {
-    --primary: #2BC854;
-    --primary-dark: #26B34A;
-    --accent: #2BC854;
-    --secondary: #F80673;
-    --secondary-dark: #E00567
 }
 
 
