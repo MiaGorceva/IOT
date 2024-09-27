@@ -3881,6 +3881,8 @@ select.text-input {
 .slider-07__img {
     width: 100%;
     max-width: 550px;
+    height: auto;
+    object-fit: cover;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
