@@ -1,18 +1,12 @@
-
-.fal {
-    font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
-    font-weight: 510;
-    font-variant: all-small-caps;
-}
+@font-face {
+    font-family: 'Playfair Display', 'BIZ UDPMincho', Helvetica, sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=BIZ+UDPMincho') format('woff2');
+    font-display: swap;
+    /* Additional properties like font-weight and font-style can be specified */
+  }
 
 .custom_fonts .custom-google-fonts-enabled * {
     font-family: 'BIZ UDPMincho', Helvetica, sans-serif;
-}
-
- .material-icons{
-    font-family: 'Material Icons'!important;
-    font-size: 40px!important;
-    color: #54c54a
 }
 
 .custom_fonts .custom-google-fonts-enabled h1,
@@ -24,6 +18,17 @@
     font-family: 'Playfair Display','BIZ UDPMincho', Helvetica, serif;
 }
 
+.fal {
+    font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
+    font-weight: 510;
+    font-variant: all-small-caps;
+}
+
+.material-icons{
+    font-family: 'Material Icons'!important;
+    font-size: 40px!important;
+    color: #54c54a
+}
 
 .style-green-2 {
     --dark: #0A6B01;
@@ -268,6 +273,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0
+}
+
+body > div, body > img {
+    width: 100%;
+    height: auto;
 }
 
 html .comps {
