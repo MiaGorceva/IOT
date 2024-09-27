@@ -1,48 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" class="style-green-2 custom-colors-enabled custom-primary-button-color-bright custom-accent-color-bright custom_fonts comps live_website">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="fncZWiemtO0bTaOevjmplBnZZfL6w9gt6hjO_gF9bio">
-    <meta name="description" content="The most flexible Industrial IoT platform, offering customizable sensors and smart solutions for various industries.">
-    <meta property="og:title" content="Flexible and Customizable Industrial IoT Platform" />
-    <meta property="og:description" content="The most Flexible Industrial IoT platform ever" />
-    <meta property="og:image" content="/upload/MITE the future of industrial IoT.webp" />
-    <meta property="og:url" content="https://mite.club/" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Flexible Industrial IoT Platform">
-    <meta name="twitter:description" content="The most Flexible Industrial IoT platform ever">
-    <meta name="twitter:image" content="/upload/MITE the future of industrial IoT.webp">
-    <link rel="canonical" href="https://mite.club" />
-
-	<!-- Preloading and minifying CSS -->
-	<link rel="preload" href="style.css" as="style">
-	<link rel="stylesheet" href="style.css">
-
-	<link rel="preload" href="upload/mite-logo-green-w_o-background.webp" as="image">
-
-	<!-- Minifying JavaScript -->
-	<script src="script.js" defer></script>
-
-	<!-- Preload font files -->
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preload" href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap"></noscript>
-	<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+	   <!-- Meta Tags for SEO and Social Media -->
+	   <meta charset="utf-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	   <meta name="google-site-verification" content="fncZWiemtO0bTaOevjmplBnZZfL6w9gt6hjO_gF9bio">
+	   <meta name="description" content="The most flexible Industrial IoT platform, offering customizable sensors and smart solutions for various industries.">
+	   <meta property="og:title" content="Flexible and Customizable Industrial IoT Platform" />
+	   <meta property="og:description" content="The most Flexible Industrial IoT platform ever" />
+	   <meta property="og:image" content="/upload/MITE the future of industrial IoT.webp" />
+	   <meta property="og:url" content="https://mite.club/" />
+	   <meta name="twitter:card" content="summary_large_image">
+	   <meta name="twitter:title" content="Flexible Industrial IoT Platform">
+	   <meta name="twitter:description" content="The most Flexible Industrial IoT platform ever">
+	   <meta name="twitter:image" content="/upload/MITE the future of industrial IoT.webp">
+	   <link rel="canonical" href="https://mite.club" />
 
 
-	<link rel="icon" type="image/webp" href="upload/favicon-spider_green.webp" sizes="16x16" />
-	<title>Flexible and Customizable Industrial IoT Platform</title>
-
-	<script async defer src="https://www.googletagmanager.com/gtag/js?id=G-WNZ8GSS8XE"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-WNZ8GSS8XE');
-	</script>
-
-
+	   <?php include 'header.php'; ?>
+	   
+		<title>Flexible and Customizable Industrial IoT Platform</title>
 	</head>
 
 <!-- background: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 100%);-->
