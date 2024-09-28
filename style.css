@@ -712,6 +712,8 @@ pre {
 .link_green{
     color: #54c54a;
     text-decoration: none;
+    width: 27px;
+    height: 18px;
 }
 
 .content_box {
