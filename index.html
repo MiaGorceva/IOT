@@ -14,22 +14,31 @@
 	   <link rel="canonical" href="https://mite.club" />
 
 
-	   <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            fetch("header.html")
-                .then(response => response.text())
-                .then(data => {
-                    const head = document.head;
-                    const parser = new DOMParser();
-                    const doc = parser.parseFromString(data, "text/html");
-                    const metaTags = doc.head.children;
-
-                    Array.from(metaTags).forEach(tag => {
-                        head.appendChild(tag);
-                    });
-                });
-        });
-    </script>
+	   document.addEventListener("DOMContentLoaded", function () {
+		fetch("header.html")
+			.then(response => response.text())
+			.then(data => {
+				const head = document.head;
+				const parser = new DOMParser();
+				const doc = parser.parseFromString(data, "text/html");
+				const metaTags = doc.head.children;
+	
+				Array.from(metaTags).forEach(tag => {
+					if (tag.tagName.toLowerCase() === "script") {
+						// Create a new script tag and copy attributes/content
+						const newScript = document.createElement("script");
+						if (tag.src) {
+							newScript.src = tag.src;
+						} else {
+							newScript.textContent = tag.textContent;
+						}
+						head.appendChild(newScript);
+					} else {
+						head.appendChild(tag);
+					}
+				});
+			});
+	});
 	   
 		<title>Flexible and Customizable Industrial IoT Platform</title>
 	</head>
