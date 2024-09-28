@@ -14,31 +14,25 @@
 	   <link rel="canonical" href="https://mite.club" />
 
 
-	   <script>("DOMContentLoaded", function () {
-		fetch("header.html")
-			.then(response => response.text())
-			.then(data => {
-				const head = document.head;
-				const parser = new DOMParser();
-				const doc = parser.parseFromString(data, "text/html");
-				const metaTags = doc.head.children;
-	
-				Array.from(metaTags).forEach(tag => {
-					if (tag.tagName.toLowerCase() === "script") {
-						// Create a new script tag and copy attributes/content
-						const newScript = document.createElement("script");
-						if (tag.src) {
-							newScript.src = tag.src;
-						} else {
-							newScript.textContent = tag.textContent;
-						}
-						head.appendChild(newScript);
-					} else {
-						head.appendChild(tag);
-					}
-				});
-			});
-	});</script>
+	   <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("header.html")
+                .then(response => response.text())
+                .then(data => {
+                    const head = document.head;
+                    const parser = new DOMParser();
+                    const doc = parser.parseFromString(data, "text/html");
+                    const metaTags = doc.head.children;
+
+                    Array.from(metaTags).forEach(tag => {
+                        head.appendChild(tag);
+                    });
+                });
+        });
+    </script>
+
+		<!-- Minifying JavaScript defer>-->
+		<script src="https://mite.club/script.js" defer></script>
 	   
 		<title>Flexible and Customizable Industrial IoT Platform</title>
 	</head>
@@ -58,7 +52,7 @@
 							<span class="nav-02__logo_text ">MITE - The Future of <br>Industrial IoT</span>
 						</a>
 					</div>
-					<div class="nav-02__link js-menu">
+					<div class="nav-02__links js-menu">
 						<div class="nav-02__list_wrapper  ">
 							<ul class="nav-02__list nav-02__list--desktop">
 								<div class="nav-02__item">
