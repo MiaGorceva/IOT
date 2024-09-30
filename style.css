@@ -306,7 +306,8 @@ body.state-fixed-body {
 }
 
 .custom_fonts * {
-    font-family: 'Lato', Helvetica, sans-serif
+    font-family: 'Lato', Helvetica, sans-serif !important;
+    letter-spacing: 0.1em;
 }
 
 .comps p {
