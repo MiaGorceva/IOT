@@ -712,8 +712,10 @@ pre {
 .link_green{
     color: #54c54a;
     text-decoration: none;
-    width: 27px;
+    width: 26px;
     height: 18px;
+    float: inline-start;
+    margin-right: 6px;
 }
 
 .content_box {
