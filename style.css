@@ -2141,6 +2141,10 @@ select.text-input {
     background: lightgray;
 }
 
+.dropdown__item .img{
+    letter-spacing: 0.2em;
+}
+
 .dropdown__item a {
     width: 100%
 }
