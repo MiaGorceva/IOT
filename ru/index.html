@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html class="style-green-2  custom-colors-enabled  custom-primary-button-color-bright  custom-accent-color-bright  custom_fonts comps live_website" lang="en">
 	<head>
-
-		<meta name="google-site-verification" content="fncZWiemtO0bTaOevjmplBnZZfL6w9gt6hjO_gF9bio">
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-				<script>
-					  window.dataLayer = window.dataLayer || [];
-					  function gtag(){dataLayer.push(arguments);}
-					  gtag('js', new Date());
-
-					gtag('config', 'UA-143194842-1');
-		</script>
-
+		<!-- Meta Information -->
 		<meta charset="utf-8">
-   	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://mite.club/script.css; object-src 'none'; style-src 'self' https://mite.club/style.css; base-uri 'self'; frame-ancestors 'none';">-->
-		<link rel="alternate" href="https://mite.club/ru" hreflang="ru" />
-		<link rel="alternate" href="https://mite.club/uk" hreflang="uk" />
-		<link rel="preload" href="/style.css" as="style">
-		<link rel="stylesheet" href="/style.css">
-		<script src="/script.js" defer></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-
-          <!-- Preload font files -->
-
-        <!-- Google Fonts CSS (still included to cover all cases) -->
-		<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-
-		<link rel="icon" type="image/png" href="upload/favicon-spider_green.webp" sizes="16x16" />
-
-		<meta property="og:type" content="website">
-		<title>Будущее промышленного IoT</title>
-		<meta property="og:title" content="Будущее промышленного IoT" />
-		<meta name="twitter:title" content="Будущее промышленного IoT" />
-
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Самая гибкая индустриальная IIoT-платформа в мире">
-		<meta property="og:description" content="Самая гибкая индустриальная IIoT-платформа в мире" />
-		<meta name="twitter:description" content="Самая гибкая индустриальная IIoT-платформа в мире" />
-
-		<meta property="og:image" content="Самая гибкая индустриальная IIoT-платформа в мире" />
-		<meta name="twitter:card" content="Самая гибкая индустриальная IIoT-платформа в мире">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Будущее промышленного IoT">
+		<meta property="og:description" content="Самая гибкая индустриальная IIoT-платформа в мире">
+		<meta property="og:image" content="upload/MITE the future of industrial IoT.webp">
+		<meta property="og:url" content="https://mite.club/ru">
+		<meta name="twitter:title" content="Будущее промышленного IoT">
+		<meta name="twitter:description" content="Самая гибкая индустриальная IIoT-платформа в мире">
 		<meta name="twitter:image" content="upload/MITE the future of industrial IoT.webp">
-
-		<link rel="canonical" href="https://mite.club/ru" />
-		<meta name="twitter:url" content="https://mite.club/ru" target="_blank">
-		<meta property="og:url" content="https://mite.club/ru" target="_blank">
-
-		<script id="uniApiResponseData"
-			type="application/json">{"error_message": "Invalid URL 'mite.club': No scheme supplied. Perhaps you meant https://mite.club/ru?"}</script>
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:url" content="https://mite.club/ru">
+	
+		<!-- Canonical and Alternate Links -->
+		<link rel="canonical" href="https://mite.club/ru">
+		<link rel="alternate" href="https://mite.club/ru" hreflang="ru">
+		<link rel="alternate" href="https://mite.club/uk" hreflang="uk">
+		
+		<!-- External Scripts -->
+		<script async src="https://www.googleoptimize.com/optimize.js?id=OPT-5R6SJ2X"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNZ8GSS8XE"></script>
+	
+		<!-- Inline Scripts: Google Analytics and Google Optimize Configuration -->
 		<script>
-			try {
-				window.uniApiResponseData = JSON.parse(document.getElementById('uniApiResponseData').textContent);
-			} catch (e) {
-				window.uniApiResponseData = { error_message: 'Error parsing API response data' }
-				console.error('Error parsing API response data', e);
-			}
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+			gtag('config', 'G-WNZ8GSS8XE');
+			gtag('config', 'OPT-5R6SJ2X');
 		</script>
+	
+		<!-- Load Local Script -->
+		<script src="/script.js" defer></script>
+	
+		<!-- Dynamic Header Injection Script -->
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				fetch("header.html")
+					.then(response => response.text())
+					.then(data => {
+						const head = document.head;
+						const parser = new DOMParser();
+						const doc = parser.parseFromString(data, "text/html");
+						const metaTags = doc.head.children;
+	
+						Array.from(metaTags).forEach(tag => {
+							head.appendChild(tag);
+						});
+					});
+			});
+		</script>
+	
+		<!-- Favicon -->
+		<link rel="icon" type="image/webp" href="/upload/favicon-spider_green.webp" sizes="16x16">
+	
+		<!-- Page Title -->
+		<title>Будущее промышленного IoT</title>
 	</head>
+	
 <!-- background: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 100%);-->
 	<body class="custom-google-fonts-enabled comps" id="162060-494844">
 		<meta name="google-site-verification" content="0nAYvQx_LNSvdl-JMhAr2JcIod0xdUZrY7q5A51MeuU" />
@@ -3709,7 +3713,9 @@
 							<div class="nav-02__logo">
 								<a class="nav-02__link" href="/" target="_blank">
 									<span><img class="nav-02__logo_img" alt="Mite Будущее промышленного IoT" style="
-										height: 100px" src= "upload/mite-logo-green-w_o-background.webp" srcset= "upload/mite-logo-green-w_o-background.webp?width=144&amp;height=64 144w,upload/mite-logo-green-w_o-background.webp?width=288&amp;height=128 288w,upload/mite-logo-green-w_o-background.webp?width=432&amp;height=192 432w," sizes="144px"/>
+										height: 100px" src= "upload/mite-logo-green-w_o-background.webp" srcset= "upload/mite-logo-green-w_o-background.webp?width=144&amp;height=64 144w,
+										upload/mite-logo-green-w_o-background.webp?width=288&amp;height=128 288w,
+										upload/mite-logo-green-w_o-background.webp?width=432&amp;height=192 432w," sizes="144px"/>
 								</a>
 								<!--<span class="nav-02__logo_text ">MITE - The Future <br> of Industrial IoT</span>-->
 							</div>
