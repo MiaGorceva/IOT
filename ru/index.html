@@ -41,7 +41,7 @@
 		<!-- Dynamic Header Injection Script -->
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
-				fetch("header.html")
+				fetch("/header.html")
 					.then(response => response.text())
 					.then(data => {
 						const head = document.head;
