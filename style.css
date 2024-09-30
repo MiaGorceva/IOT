@@ -2034,7 +2034,7 @@ select.text-input {
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-    width: 82px;
+    width: fit-content;
     padding: 5%
 }
 
