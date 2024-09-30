@@ -380,7 +380,7 @@ textarea:focus {
 }
 
 .container {
-    padding: 0 15px;
+    padding: 0 12px;
     display: flex;
     width: 100%;
     flex-direction: column;
