@@ -1,12 +1,50 @@
-@font-face {
-    font-family: 'Playfair Display', 'BIZ UDPMincho', Helvetica, sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap') format('woff2');
-    font-display: swap;
-    /* Additional properties like font-weight and font-style can be specified */
-  }
+/* Base style for all elements */
+body, p, a, span, li, input, button, .custom_fonts *  {
+    font-family: 'Lato', sans-serif; /* Base font for body text and small text */
+    letter-spacing: 0.1em;
+    
+}
 
+/* Default heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; /* Use Playfair Display for headings */
+    font-weight: 700; /* Optional: Make headings bold */
+}
+
+/* Accent text or elements that need to stand out */
+.accent, .nav-02__link, .button, .highlight-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500; /* Moderate weight for accents */
+}
+
+/* General UI elements (e.g., navbar, buttons) */
+.navbar, .nav-02__item, .menu-item {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat for general UI elements */
+    font-weight: 500;
+}
+
+/* Adjust weights and sizes as needed */
+body {
+    font-weight: 300; /* Light weight for body text */
+    font-size: 16px; /* Base font size */
+}
+
+/* Button and navigation font styles */
+button, .nav-item, .nav-link {
+    font-family: 'Montserrat', sans-serif; /* Primary UI font */
+    font-weight: 500;
+}
+
+/* Custom styles for small text */
+.small-text, .footer-text {
+    font-family: 'Lato', sans-serif; /* Use Lato for small elements */
+    font-weight: 300;
+    font-size: 14px; /* Smaller font size */
+} 
+
+/* Updated font settings for different elements */
 .custom_fonts .custom-google-fonts-enabled * {
-    font-family: 'BIZ UDPMincho', Helvetica, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif; /* Base font: Montserrat */
 }
 
 .custom_fonts .custom-google-fonts-enabled h1,
@@ -15,8 +53,15 @@
 .custom_fonts .custom-google-fonts-enabled h4,
 .custom_fonts .custom-google-fonts-enabled h5,
 .custom_fonts .custom-google-fonts-enabled h6 {
-    font-family: 'Playfair Display','BIZ UDPMincho', Helvetica, serif;
+    font-family: 'Playfair Display', 'Montserrat', serif; /* Headings: Playfair Display with Montserrat fallback */
 }
+
+.custom_fonts .custom-google-fonts-enabled p,
+.custom_fonts .custom-google-fonts-enabled small,
+.custom_fonts .custom-google-fonts-enabled span {
+    font-family: 'Lato', 'Montserrat', sans-serif; /* Paragraph and small text: Lato */
+}
+
 
 .fal {
     font-family: 'Font Awesome 5 Free'!important; /* or the correct Font Awesome version you're using */
@@ -303,11 +348,6 @@ body.state-fixed-body {
 
 .live_website body.state-fixed-body_popup {
     overflow: hidden
-}
-
-.custom_fonts * {
-    font-family: 'Lato', Helvetica, sans-serif !important;
-    letter-spacing: 0.1em;
 }
 
 .comps p {
