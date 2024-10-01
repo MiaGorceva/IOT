@@ -3324,8 +3324,9 @@ select.text-input {
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between
-}
+    justify-content: flex-start; /* Adjust as needed */
+    white-space: nowrap
+    }
 
 .comps .nav-02__link:hover {
     color: inherit;
