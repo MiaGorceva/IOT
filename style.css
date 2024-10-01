@@ -1,15 +1,23 @@
 /* Base style for all elements */
-body, p, a, span, li, input, button, .custom_fonts *  {
+body, p, a, span, li, input, button, .custom_fonts *, pre {
     font-family: 'Lato', sans-serif; /* Base font for body text and small text */
     letter-spacing: 0.1em;
+    line-height: 1.5
     
 }
 
 /* Default heading styles */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .heading {
     font-family: 'Playfair Display', serif; /* Use Playfair Display for headings */
     font-weight: 700; /* Optional: Make headings bold */
 }
+
+.heading {
+    font-size: 2em;
+    max-width: 700px;
+    text-align: center
+}
+
 
 /* Accent text or elements that need to stand out */
 .accent, .nav-02__link, .button, .highlight-text {
@@ -483,15 +491,6 @@ header {
     color: #303030
 }
 
-pre {
-    line-height: 1.5
-}
-
-.heading {
-    font-size: 2em;
-    max-width: 700px;
-    text-align: center
-}
 
 @media (max-width: 768px) {
 
