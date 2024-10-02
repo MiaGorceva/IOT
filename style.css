@@ -386,6 +386,11 @@ b {
     font-weight: 700
 }
 
+h2, strong{
+    font-family: 'Playfair Display', 'Montserrat', serif;
+    color: #54c54a;
+}
+
 input,
 button,
 select,
