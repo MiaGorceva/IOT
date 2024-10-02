@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, .heading {
 }
 
 .heading {
-    font-size: 2em;
+    font-size: 2.6em;
     max-width: 700px;
     text-align: center
 }
@@ -2099,6 +2099,7 @@ select.text-input {
     margin: 0;
     list-style: none;
     max-height: 70vh;
+    min-width: 160px;
     overflow: auto;
     padding-bottom: 10px;
     border-radius: 4px;
