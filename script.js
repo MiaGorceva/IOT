@@ -9907,7 +9907,7 @@
               maxvelocity: 30
           }))
       }
-  }, */
+  }, 
   window.internetofthings.roadmapScroll.init(), window.internetofthings.slider = {
       init: function() {
           for (var e = $(".js-slider"), t = e.length, n = "", i = 0; i < t; i++) {
@@ -9918,7 +9918,7 @@
               0 < s.length && 0 < r.length ? (o.prevArrow = s, o.nextArrow = r) : o.arrows = !1, n.hasClass("slick-initialized") || n.slick(o)
           }
       }
-  },  window.internetofthings.slider.init(), window.internetofthings.tabs = function() {
+  }, */ window.internetofthings.slider.init(), window.internetofthings.tabs = function() {
       var t, c;
 
       function d(e) {
