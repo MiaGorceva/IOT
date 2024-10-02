@@ -9907,7 +9907,7 @@
               maxvelocity: 30
           }))
       }
-  }, 
+  }, */
   window.internetofthings.roadmapScroll.init(), window.internetofthings.slider = {
       init: function() {
           for (var e = $(".js-slider"), t = e.length, n = "", i = 0; i < t; i++) {
@@ -9960,7 +9960,7 @@
           },
           setAll: n
       }
-  }(),   window.internetofthings.tabs.init();*/
+  }(),   window.internetofthings.tabs.init();
   var showContentOnClick = {
           bind: function() {
               $(document).on("mouseenter", ".js-hover-to-show-sibling", function(e) {
