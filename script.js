@@ -9960,7 +9960,9 @@
           },
           setAll: n
       }
-  }(),  
+  }//(),  // Initialize the slider
+  //window.internetofthings.slider.init();
+//});
   /*$(document).ready(function () {
     window.internetofthings.slider = {
         init: function () {
@@ -9986,9 +9988,8 @@
         }
     };
 */
-    // Initialize the slider
-    window.internetofthings.slider.init();
-});
+    
+
   /* window.internetofthings.tabs.init();*/
   var showContentOnClick = {
           bind: function() {
