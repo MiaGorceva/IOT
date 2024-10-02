@@ -9907,8 +9907,8 @@
               maxvelocity: 30
           }))
       }
-  }, roadmapScroll.init()*/
-  window.internetofthings.slider.init(), window.internetofthings.slider = {
+  }, 
+  window.internetofthings.roadmapScroll.init(), window.internetofthings.slider = {
       init: function() {
           for (var e = $(".js-slider"), t = e.length, n = "", i = 0; i < t; i++) {
               var n = e.eq(i),
@@ -9960,7 +9960,36 @@
           },
           setAll: n
       }
-  }(),   window.internetofthings.tabs.init();
+  }(),  */
+  $(document).ready(function () {
+    window.internetofthings.slider = {
+        init: function () {
+            var e = $(".js-slider"); // Select all elements with class 'js-slider'
+            e.each(function () {
+                var n = $(this),
+                    config = JSON.parse(n.attr("data-slider-config")), // Parse the config JSON
+                    s = n.parent().find(".js-prev-arrow"), // Find prev arrow
+                    r = n.parent().find(".js-next-arrow"); // Find next arrow
+
+                if (s.length && r.length) {
+                    config.prevArrow = s;
+                    config.nextArrow = r;
+                } else {
+                    config.arrows = false; // Hide arrows if none found
+                }
+
+                // Initialize the slider if not already initialized
+                if (!n.hasClass("slick-initialized")) {
+                    n.slick(config);
+                }
+            });
+        }
+    };
+
+    // Initialize the slider
+    window.internetofthings.slider.init();
+});
+   window.internetofthings.tabs.init();
   var showContentOnClick = {
           bind: function() {
               $(document).on("mouseenter", ".js-hover-to-show-sibling", function(e) {
