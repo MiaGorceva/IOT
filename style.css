@@ -5780,6 +5780,7 @@ html .bg-accent-color .features-09__item--new {
     left: 0;
     width: 100%;
     height: 100%;
+    border: none; /* Remove border if present */
 }
 
 .youtube-play-button {

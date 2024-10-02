@@ -9918,7 +9918,7 @@
               0 < s.length && 0 < r.length ? (o.prevArrow = s, o.nextArrow = r) : o.arrows = !1, n.hasClass("slick-initialized") || n.slick(o)
           }
       }
-  },  window.internetofthings.slider.init(), window.internetofthings.tabs = function() {
+  }, */ window.internetofthings.slider.init(), window.internetofthings.tabs = function() {
       var t, c;
 
       function d(e) {
@@ -9960,8 +9960,8 @@
           },
           setAll: n
       }
-  }(),  */
-  $(document).ready(function () {
+  }(),  
+  /*$(document).ready(function () {
     window.internetofthings.slider = {
         init: function () {
             var e = $(".js-slider"); // Select all elements with class 'js-slider'
@@ -9985,7 +9985,7 @@
             });
         }
     };
-
+*/
     // Initialize the slider
     window.internetofthings.slider.init();
 });
