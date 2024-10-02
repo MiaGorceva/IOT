@@ -9908,6 +9908,8 @@
           }))
       }
   }, */
+  // Initialize the slider
+  window.internetofthings.slider.init();
   window.internetofthings.roadmapScroll.init(), window.internetofthings.slider = {
       init: function() {
           for (var e = $(".js-slider"), t = e.length, n = "", i = 0; i < t; i++) {
