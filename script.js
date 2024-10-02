@@ -9989,7 +9989,7 @@
     // Initialize the slider
     window.internetofthings.slider.init();
 });
-   window.internetofthings.tabs.init();
+  /* window.internetofthings.tabs.init();*/
   var showContentOnClick = {
           bind: function() {
               $(document).on("mouseenter", ".js-hover-to-show-sibling", function(e) {
