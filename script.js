@@ -9548,8 +9548,8 @@
       };
 
   // Initialize the form submission handler
- /* submitNoIntegrationForm.init();
-  window.internetofthings.subscribeMailchimpForm = {
+  submitNoIntegrationForm.init();
+  /*window.internetofthings.subscribeMailchimpForm = {
       init: function() {
           for (var e = $(".js-subscribe-mailchimp-form"), t = e.length, n = 0; n < t; n++) ! function(o) {
               var s = o.find(".js-engaging-message"),
