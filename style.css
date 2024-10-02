@@ -386,7 +386,7 @@ b {
     font-weight: 700
 }
 
-h2, strong{
+.strongH2{
     font-family: 'Playfair Display', 'Montserrat', serif;
     color: #54c54a;
 }
