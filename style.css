@@ -6015,6 +6015,7 @@ html .bg-accent-color .features-09__item--new {
 
 .lang-widget__title {
     white-space: nowrap;
+    position: sticky;
     right: 1%;
     top:1%
 }
