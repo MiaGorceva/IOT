@@ -3945,11 +3945,12 @@ select.text-input {
     width: 100%;
     max-width: 550px;
     height: auto;
+    aspect-ratio: 16 / 9; /* Пример соотношения сторон для изображения */
     object-fit: cover;
-    margin: auto auto;
+    margin: auto;
     border-radius: 10px;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
-    cursor: zoom-in
+    cursor: zoom-in;
 }
 
 @media (max-width: 1250px) {
