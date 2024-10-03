@@ -22,9 +22,9 @@
 		<link rel="alternate" href="https://mite.club/ru" hreflang="ru">
 		<link rel="alternate" href="https://mite.club/uk" hreflang="uk">
 		
-		<!-- External Scripts -->
+		<!-- External Scripts 
 		<script async src="https://www.googleoptimize.com/optimize.js?id=OPT-5R6SJ2X"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNZ8GSS8XE"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNZ8GSS8XE"></script>-->
 	
 		<!-- Inline Scripts: Google Analytics and Google Optimize Configuration -->
 		<script>
@@ -36,7 +36,7 @@
 		</script>
 	
 		<!-- Load Local Script -->
-		<script src="/script.js" defer></script>
+		<!--<script src="/script.js" defer></script>-->
 	
 		<!-- Dynamic Header Injection Script -->
 		<script>
@@ -4112,6 +4112,32 @@
 					font-size: 14px;
 				}
 			</style>	
+
+		<!-- Вставьте перед закрывающим тегом </body> -->
+		<script>
+			// Проверка, поддерживает ли браузер ленивую загрузку изображений
+			if ('loading' in HTMLImageElement.prototype) {
+			// Добавление скрипта Google Optimize
+			const optimizeScript = document.createElement("script");
+			optimizeScript.src = "https://www.googleoptimize.com/optimize.js?id=OPT-5R6SJ2X";
+			document.body.appendChild(optimizeScript);
+		
+			// Добавление скрипта Google Tag Manager (или Google Analytics)
+			const gtmScript = document.createElement("script");
+			gtmScript.src = "https://www.googletagmanager.com/gtag/js?id=G-WNZ8GSS8XE";
+			gtmScript.async = true;
+			document.body.appendChild(gtmScript);
+			
+			// Добавление пользовательского скрипта (вашего script.js)
+			const customScript = document.createElement("script");
+			customScript.src = "script.js"; // Убедитесь, что путь к вашему файлу указан правильно
+			customScript.defer = true;
+			document.body.appendChild(customScript);
+			} else {
+			// Фолбэк для браузеров, не поддерживающих ленивую загрузку изображений
+			console.warn("Ваш браузер не поддерживает ленивую загрузку изображений.");
+			}
+		</script>
 	</body>
 </html>
 			
