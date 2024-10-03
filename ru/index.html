@@ -22,9 +22,9 @@
 		<link rel="alternate" href="https://mite.club/ru" hreflang="ru">
 		<link rel="alternate" href="https://mite.club/uk" hreflang="uk">
 		
-		<!-- External Scripts 
+		<!-- External Scripts -->
 		<script async src="https://www.googleoptimize.com/optimize.js?id=OPT-5R6SJ2X"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNZ8GSS8XE"></script>-->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNZ8GSS8XE"></script>
 	
 		<!-- Inline Scripts: Google Analytics and Google Optimize Configuration -->
 		<script>
@@ -36,7 +36,7 @@
 		</script>
 	
 		<!-- Load Local Script -->
-		<!--<script src="/script.js" defer></script>-->
+		<script src="/script.js" defer></script>
 	
 		<!-- Dynamic Header Injection Script -->
 		<script>
@@ -4112,32 +4112,6 @@
 					font-size: 14px;
 				}
 			</style>	
-
-	<!-- Dynamic loading of scripts at the end of body -->
-<script>
-	window.addEventListener('load', function() {
-	  if ('loading' in HTMLImageElement.prototype) {
-		// Google Optimize
-		const optimizeScript = document.createElement("script");
-		optimizeScript.src = "https://www.googleoptimize.com/optimize.js?id=OPT-5R6SJ2X";
-		document.body.appendChild(optimizeScript);
-  
-		// Google Tag Manager
-		const gtmScript = document.createElement("script");
-		gtmScript.src = "https://www.googletagmanager.com/gtag/js?id=G-WNZ8GSS8XE";
-		gtmScript.async = true; // Используйте async
-		document.body.appendChild(gtmScript);
-  
-		// Ваш скрипт
-		const customScript = document.createElement("script");
-		customScript.src = "/script.js"; // Убедитесь, что путь к скрипту верный
-		customScript.defer = true; // Добавьте defer для вашего скрипта
-		document.body.appendChild(customScript);
-	  } else {
-		console.warn("Ваш браузер не поддерживает ленивую загрузку изображений.");
-	  }
-	});
-  </script>
 	</body>
 </html>
 			
