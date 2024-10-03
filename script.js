@@ -1,3 +1,6 @@
+// Внутри script.js
+document.addEventListener('DOMContentLoaded', function() {
+    // Ваш код здесь
 ! function(e, t) {
   "object" == typeof exports && "object" == typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? exports.ClipboardJS = t() : e.ClipboardJS = t()
 }(this, function() {
@@ -10481,3 +10484,5 @@ var widgets = {
       }
   });
 languageSwitchHreflangs.bind();
+console.log('Custom script is ready!');
+});
