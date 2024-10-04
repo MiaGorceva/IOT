@@ -1,3 +1,11 @@
+/* Пример подключения шрифтов с font-display */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+    font-display: swap;
+}
+
+
 /* Base style for all elements */
 body, p, a, span, li, input, button, .custom_fonts *, pre {
     font-family: 'Lato', sans-serif; /* Base font for body text and small text */
@@ -343,6 +351,13 @@ html .comps {
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar
 }
+
+html .comps,
+html .body--loaded {
+    min-height: 100vh; /* Минимальная высота на весь экран */
+    min-width: 100vw; /* Минимальная ширина на весь экран */
+}
+
 
 body {
     background-color: white;
@@ -1387,8 +1402,12 @@ body .page-component__bg_overlay_box {
 }
 
 .body--loaded .button {
-    transition: color .2s ease, background-color .2s ease, border-color .2s ease, box-shadow .2s ease, transform .2s ease
+    display: inline-block; /* Резервирует место под элементы */
+    width: 100px; /* Явное указание ширины */
+    height: 50px; /* Явное указание высоты */
+    transition: color .2s ease, background-color .2s ease, border-color .2s ease, box-shadow .2s ease, transform .2s ease;
 }
+
 
 .comps .button--has-dropdown {
     overflow: visible
