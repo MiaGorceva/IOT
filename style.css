@@ -1403,7 +1403,7 @@ body .page-component__bg_overlay_box {
 
 .body--loaded .button {
     display: inline-block; /* Резервирует место под элементы */
-    width: 100px; /* Явное указание ширины */
+   /* width: 100px;  Явное указание ширины */
     height: 50px; /* Явное указание высоты */
     transition: color .2s ease, background-color .2s ease, border-color .2s ease, box-shadow .2s ease, transform .2s ease;
 }
