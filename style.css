@@ -1228,7 +1228,7 @@ body .page-component__bg_overlay_box {
 }
 
 .comps .button {
-    overflow: hidden;
+   /* overflow: hidden;*/
     display: inline-block;
     position: relative;
     padding: 12px 24px 12px;
@@ -2140,7 +2140,8 @@ select.text-input {
     opacity: 50%;
     transition: opacity 0.2s ease, transform 0.2s ease;
     box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.1);
-    padding: 5%
+    padding: 5%;
+    white-space: normal
 }
 
 
@@ -3390,7 +3391,7 @@ select.text-input {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start; /* Adjust as needed */
-  /*  white-space: nowrap*/
+    white-space: nowrap
     }
 
 .comps .nav-02__link:hover {
