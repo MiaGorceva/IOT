@@ -3390,7 +3390,7 @@ select.text-input {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start; /* Adjust as needed */
-    white-space: nowrap
+  /*  white-space: nowrap*/
     }
 
 .comps .nav-02__link:hover {
