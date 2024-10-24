@@ -14,7 +14,7 @@ jobs:
 
     # Image compression using calibreapp/image-actions
     - name: Optimize Images
-      uses: calibreapp/image-actions@v1.1.0
+      uses: calibreapp/image-actions@main
       with:
         githubToken: ${{ secrets.GITHUB_TOKEN }}
 
