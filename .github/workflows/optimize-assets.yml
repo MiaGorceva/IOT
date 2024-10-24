@@ -3,7 +3,7 @@ name: Image Optimization
 on:
   pull_request:
     branches:
-      - main  # or your target branch
+      - main  # or your target branchh
 
 jobs:
   optimize-images:
