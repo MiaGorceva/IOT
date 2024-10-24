@@ -24,8 +24,7 @@ jobs:
           webpquality: 80
 
       - name: Upload Optimized Images
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3  # Update to v3
         with:
           name: optimized-images
-          path: .  # Change this path if necessary to point to optimized images
-
+          path: .  # Path to optimized images or project folder
