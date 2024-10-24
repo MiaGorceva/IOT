@@ -1,31 +1,21 @@
-name: Optimize Assets
+name: Image Optimization
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
+      - main  # or your target branch
 
 jobs:
-  optimize:
+  optimize-images:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    # Image compression using calibreapp/image-actions
-    - name: Optimize Images
-      uses: calibreapp/image-actions@main
-      with:
-        githubToken: ${{ secrets.GITHUB_TOKEN }}
-
-    # Minify CSS using cssnano-cli
-    - name: Minify CSS
-      run: |
-        npm install -g cssnano-cli
-        cssnano styles.css styles.min.css
-
-    # Minify JS using terser
-    - name: Minify JS
-      run: |
-        npm install -g terser
-        terser script.js -o script.min.js
+      - name: Optimize Images
+        uses: calibreapp/image-actions@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          jpegquality: 80
+          pngquality: 80
+          webpquality: 80
