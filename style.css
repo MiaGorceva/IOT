@@ -5071,9 +5071,11 @@ select.text-input {
 
 .footer-02__wrapper {
     display: flex;
+    flex: 0 0 33,3%;
     align-items: stretch;
     align-content: space-between;
     flex-direction: column;
+    padding-bottom: 3%
 }
 
 .footer-02--right{
