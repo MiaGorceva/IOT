@@ -1,9 +1,12 @@
 name: Image Optimization
 
 on:
+  push:
+    branches:
+      - main
   pull_request:
     branches:
-      - main  # or your target branchh
+      - main
 
 jobs:
   optimize-images:
@@ -19,3 +22,10 @@ jobs:
           jpegquality: 80
           pngquality: 80
           webpquality: 80
+
+      - name: Upload Optimized Images
+        uses: actions/upload-artifact@v2
+        with:
+          name: optimized-images
+          path: .  # Change this path if necessary to point to optimized images
+
