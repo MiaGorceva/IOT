@@ -1,15 +1,12 @@
 name: Image Optimization
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
+  pull_request:  # Trigger the workflow only for pull requests
     branches:
       - main
 
 permissions:
-  contents: write  # Grants required permissions for GITHUB_TOKEN
+  contents: write
 
 jobs:
   optimize-images:
@@ -21,8 +18,7 @@ jobs:
       - name: Optimize Images
         uses: calibreapp/image-actions@main
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
           jpegQuality: 80
           pngQuality: 80
           webpQuality: 80
-
