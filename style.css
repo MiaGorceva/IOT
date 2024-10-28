@@ -10,7 +10,7 @@
 body, p, a, span, li, input, button, .custom_fonts *, pre {
     font-family: 'Lato', sans-serif; /* Base font for body text and small text */
     letter-spacing: 0.1em;
-    line-height: 1
+    /*line-height: 1*/
     
 }
 
