@@ -4647,6 +4647,7 @@ select.text-input {
     float:inline-start;
     /*padding-right: 20px;*/
     margin-right: 12px;
+    line-height: 1
 }
 
 @media (max-width: 760px) {
