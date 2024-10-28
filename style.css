@@ -3213,10 +3213,9 @@ select.text-input {
     opacity: 0.9;
     max-width: 850px;
     text-align: center;
-    line-height: 1.6;
     box-shadow: none;
     margin-bottom: 50px;
-    font-size: 1.2em
+    font-size: 1.6em
 }
 
 @media (max-width: 500px) {
@@ -5267,7 +5266,7 @@ select.text-input {
     border-radius: 4px;
     text-align: left;
     cursor: pointer;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.6;
     letter-spacing: 0.01em;
     transition: border-color 0.25s ease, color 0.25s ease
@@ -5275,7 +5274,8 @@ select.text-input {
 
 .faq-01__question_text {
     position: relative;
-    padding-right: 35px
+    padding-right: 35px;
+    line-height: 1.6px;
 }
 
 
