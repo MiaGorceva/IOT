@@ -5275,7 +5275,7 @@ select.text-input {
 .faq-01__question_text {
     position: relative;
     padding-right: 35px;
-    line-height: 1.6px;
+    line-height: 1.6;
 }
 
 
