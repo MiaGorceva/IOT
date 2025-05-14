@@ -3329,8 +3329,8 @@ select.text-input {
     align-items: center;
 }
 .privacy {
-        z-index: 1;
-    padding-top: 5%;
+    z-index: 1;
+    padding-top: 10%;
     font-size: xx-small !important;
     /*color: #48cfff; */
     text-decoration: underline; 
