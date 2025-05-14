@@ -3331,8 +3331,8 @@ select.text-input {
 .privacy {
         z-index: 1;
     padding-top: 5%;
-    font-size: xx-small;
-    color: #48cfff; 
+    font-size: xx-small !important;
+    /*color: #48cfff; */
     text-decoration: underline; 
 }
 
