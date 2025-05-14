@@ -3328,6 +3328,13 @@ select.text-input {
     display: flex;
     align-items: center;
 }
+.privacy {
+        z-index: 1;
+    padding-top: 5%;
+    font-size: xx-small;
+    color: #48cfff; 
+    text-decoration: underline; 
+}
 
 @media (max-width: 900px) {
     .nav-02__logo {
