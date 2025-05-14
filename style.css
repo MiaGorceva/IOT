@@ -3336,6 +3336,10 @@ select.text-input {
     text-decoration: underline; 
 }
 
+.privacy_blue {
+    color: #48cfff;
+}
+
 @media (max-width: 900px) {
     .nav-02__logo {
         padding: 5px 5px 5px 0
@@ -5141,8 +5145,8 @@ select.text-input {
 
 .footer-02 a {
     text-decoration: none;
-    color: inherit;
-   /* margin-left: 20px;*/
+   /* color: inherit;
+    margin-left: 20px;*/
 }
 
 .footer-04 {
